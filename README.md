@@ -7,9 +7,9 @@ Adds new features and updates existing features to enhance gameplay for existing
 * **You can start as a B-tier team**: as a B-tier team the game gets longer - it takes more time to build storng squad,
 * **B-tier cups**: B-tier teams cannot compete in Opens or RLCS. They have their own B-tier cups with prizepools, and points,
 * **Academy**: For A-tier teams with enough money, Academy for training worse players. You get it when you either:
- - Place twice in top 12 major
- - Place at least once inm top 8 major
- - qualify for world championship
+   - Place twice in top 12 major
+   - Place at least once inm top 8 major
+   - qualify for world championship
 * Every season 3-6 yound players join free agent pool.
 * Minor fixes and quality-of-life updates.
 
