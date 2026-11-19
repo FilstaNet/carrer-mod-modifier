@@ -1,6 +1,10 @@
 # carrer-mod-modifier
 Adds new features and updates existing features to enhance gameplay for existing Carrer Mod by Nixus STA for rocket league.
 
+# For unfamiliar with GitHub:
+Go to Release on right panel, and scroll down until you find .exe file. download it and follow the steps in the readme in the same releases page.
+
+
 ## Features - beta v0.4
 * **A-tier and B-tier touranemnts distinction**: B-tier now has over **200** new real teams, and over **1000** new real players,
 * **Promotions and Relegeations**: Every season 2 worst teams in A-tier falls into B-tier. Top 1 team from B-tier promote to A-tier, and top 2-5 compete in single-elimination bracket. Winner promote to A-tier,
