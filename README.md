@@ -22,11 +22,11 @@ Adds new features and updates existing features to enhance gameplay for existing
     * Save generation screen (B-tier),
     * Player transfers,
     * Few other minor changes
-  * Starring and archiving inbox mails,
-  * Prizepool is now shown on each event,
-  * New Y messages, keeping feed fresh,
-  * Openable board expectation window,
-  * Minor fixes and quality-of-life updates.
+* Starring and archiving inbox mails,
+* Prizepool is now shown on each event,
+* New Y messages, keeping feed fresh,
+* Openable board expectation window,
+* Minor fixes and quality-of-life updates.
 
 ## Planning updates:
 * **Realistic transfers**: Create better transfer logistics,
