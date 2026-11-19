@@ -11,6 +11,7 @@ Adds new features and updates existing features to enhance gameplay for existing
    - Place at least once inm top 8 major
    - qualify for world championship
 * Every season 3-6 yound players join free agent pool.
+* Highly extended betting possibilities
 * Refreshed tabs:
     * Standings,
     * notifications (inbox),
@@ -25,7 +26,7 @@ Adds new features and updates existing features to enhance gameplay for existing
 * Starring and archiving inbox mails,
 * Prizepool is now shown on each event,
 * New Y messages, keeping feed fresh,
-* Openable board expectation window,
+* Openable board expectation window with details,
 * Minor fixes and quality-of-life updates.
 
 ## Planning updates:
