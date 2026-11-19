@@ -1,7 +1,7 @@
 # carrer-mod-modifier
 Adds new features and updates existing features to enhance gameplay for existing Carrer Mod by Nixus STA for rocket league.
 
-## Features - beta v0.2
+## Features - beta v0.4
 * **A-tier and B-tier touranemnts distinction**: B-tier now has over **200** new real teams, and over **1000** new real players,
 * **Promotions and Relegeations**: Every season 2 worst teams in A-tier falls into B-tier. Top 1 team from B-tier promote to A-tier, and top 2-5 compete in single-elimination bracket. Winner promote to A-tier,
 * **You can start as a B-tier team**: as a B-tier team the game gets longer - it takes more time to build storng squad,
@@ -11,7 +11,22 @@ Adds new features and updates existing features to enhance gameplay for existing
    - Place at least once inm top 8 major
    - qualify for world championship
 * Every season 3-6 yound players join free agent pool.
-* Minor fixes and quality-of-life updates.
+* Refreshed tabs:
+    * Standings,
+    * notifications (inbox),
+    * Advance,
+    * Office media offers and betting,
+    * Calendar
+    * RLCS season overview,
+    * Recent results, Stats, Honours and Season history,
+    * Save generation screen (B-tier),
+    * Player transfers,
+    * Few other minor changes
+  * Starring and archiving inbox mails,
+  * Prizepool is now shown on each event,
+  * New Y messages, keeping feed fresh,
+  * Openable board expectation window,
+  * Minor fixes and quality-of-life updates.
 
 ## Planning updates:
 * **Realistic transfers**: Create better transfer logistics,
@@ -19,4 +34,4 @@ Adds new features and updates existing features to enhance gameplay for existing
 * **Scrims**: Every scrim you play your players gets a little better
 
 ## Known bugs and fixes:
-* Currently none as far as i know
+* Currently none as far as i know. Contact me on discord: **filip.223w** if you find any, or have suggestions.
