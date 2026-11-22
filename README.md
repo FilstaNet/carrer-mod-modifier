@@ -4,7 +4,7 @@ Adds new features and updates existing features to enhance gameplay for existing
 # For unfamiliar with GitHub:
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
 
-## Features - beta v0.5
+## Features - beta v0.6.3
 * **Tier A and Tier B tournaments distinctions**: Tier B now has over **200** new real teams, and over **1000** new real players,
 * **Promotions and Relegations**: Every season 2 worst teams in A-tier falls into Tier B. Top 1 team from Tier B promote to Tier A, and top 2-5 compete in single-elimination bracket. Winner promote to Tier A,
 * **You can start as a Tier B team**: as a Tier B team the game gets longer - it takes more time to build strong squad,
