@@ -3,6 +3,11 @@ Adds new features and updates existing features to enhance gameplay for existing
 
 # For unfamiliar with GitHub:
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
+
+# Latest changelog: Beta v0.8
+With new **Facility** update from STA, i implemented even more buildings build on top of the Headquarters. In late game, you can now build buildings. It's supposed to make the game more entertaining in late-game stage. We plan on implementing more late game features to make the game even longer soon!
+From Minor changes, i added pop-up when there is new modifier release available.
+
 # Latest changelog: Beta v0.7
 
 ## Immersive Social Media
