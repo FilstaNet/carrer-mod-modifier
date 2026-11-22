@@ -3,6 +3,30 @@ Adds new features and updates existing features to enhance gameplay for existing
 
 # For unfamiliar with GitHub:
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
+# Latest changelog: Beta v0.7
+
+## Immersive Social Media
+* **More lines** - Y is now more immersive by having more lines, making every message unique,
+* **Mood** - Your answers actually matter - replies change your mood score,
+* **Replies** - You can now actually reply to another tweets, picking your tone or generating replies,
+* **Reposts** - You can now repost and quote tweets,
+
+## Top 32 in Tier A
+* **32 teams instead of 16** playing in a swiss format, 2 groups of 16.
+* **4 teams relegate, 4 promote** - instead of 2 teams getting promoted and relegated, its now 4,
+
+## General
+* **Imrpoved Full history view** - added all regions view, with more detailed search options
+* **Bettings change** - Slight change in betting mechanism
+* **Trophy room**
+
+## Major Bugs Fixes
+* **Free agents import issue** - Free agents from a nation from your region were not counted as one. It caused import when it shouldn't
+* **Tournaments display** - Fixed Kick-off and EWC not loading properly, and not being shown on calendar,
+* **Vatira issue** - Vatira had id=0, which game thought it didn't exist. Because of that you could not move him in 2v2 or 1v1 squads.
+* **Showdown match** - As a Tier B team with low budget, you couldn't create showdown matches even if you had money to. It was because game put ceiling on the prizepool as 8% of your current budget, which in many cases was around 7-8k, when the floor of prizepool was 10k.
+* **New update compatibiliyty** - adjusted the modifier to new RL carrer hub update (.33 beta)
+    * Facilities also support academy
 
 ## Features - beta v0.6.3
 * **Tier A and Tier B tournaments distinctions**: Tier B now has over **200** new real teams, and over **1000** new real players,
