@@ -3,37 +3,55 @@ Adds new features and updates existing features to enhance gameplay for existing
 
 # For unfamiliar with GitHub:
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
+Scroll to bottom for features list
 
-# Latest changelog: Beta v0.8
+# Latest changelog: Beta v0.9
+* **Hosting**:
+   * Host your own cup series with 3 or 4 stops and a finale.
+   * Host official events - you can host one official event per season.
+* **Legacy**:
+   * **Hall of fame**:
+      - Players who retired in your club. Legends.
+   * **Club Records**:
+      - Seasonal and Total club records.
+   * **Rivals**:
+      - View of your biggest rivals, total series score, games, last game, and biggest win.
+
+
+# changelog: Beta v0.8.2
+Minor fixes
+
+# changelog: Beta v0.8
 With new **Facility** update from STA, i implemented even more buildings build on top of the Headquarters. In late game, you can now build buildings. It's supposed to make the game more entertaining in late-game stage. We plan on implementing more late game features to make the game even longer soon!
 From Minor changes, i added pop-up when there is new modifier release available.
+* **buildings list**:
+   * Youth Academy Campus - bonuses for academy development,
+   * Scouting network - scouts scout faster,
+   * Performance and wellbeing centre - Injuries heal faster, players lose less rating each new season,
+   * Analytics lab - rating boost for core players in the squad,
+   * Arena - Monthly gate income and better follower gains,
+   * Fan zone merch - Monthly income and better follower gains,
+   * Streaming studio - Media pays more,
+   * Trophy hall and Museum - Fame growth.
 
-# Latest changelog: Beta v0.7
+# changelog: Beta v0.7
 
-## Immersive Social Media
-* **More lines** - Y is now more immersive by having more lines, making every message unique,
-* **Mood** - Your answers actually matter - replies change your mood score,
-* **Replies** - You can now actually reply to another tweets, picking your tone or generating replies,
-* **Reposts** - You can now repost and quote tweets,
+* **Immersive Social Media**
+   * **More lines** - Y is now more immersive by having more lines, making every message unique,
+   * **Mood** - Your answers actually matter - replies change your mood score,
+   * **Replies** - You can now actually reply to another tweets, picking your tone or generating replies,
+   * **Reposts** - You can now repost and quote tweets,
 
-## Top 32 in Tier A
-* **32 teams instead of 16** playing in a swiss format, 2 groups of 16.
-* **4 teams relegate, 4 promote** - instead of 2 teams getting promoted and relegated, its now 4,
+* **Top 32 in Tier A**
+   * **32 teams instead of 16** playing in a swiss format, 2 groups of 16.
+   * **4 teams relegate, 4 promote** - instead of 2 teams getting promoted and relegated, its now 4,
 
-## General
-* **Imrpoved Full history view** - added all regions view, with more detailed search options
-* **Bettings change** - Slight change in betting mechanism
-* **Trophy room**
+* **General**
+   * **Imrpoved Full history view** - added all regions view, with more detailed search options
+   * **Bettings change** - Slight change in betting mechanism
+   * **Trophy room**
 
-## Major Bugs Fixes
-* **Free agents import issue** - Free agents from a nation from your region were not counted as one. It caused import when it shouldn't
-* **Tournaments display** - Fixed Kick-off and EWC not loading properly, and not being shown on calendar,
-* **Vatira issue** - Vatira had id=0, which game thought it didn't exist. Because of that you could not move him in 2v2 or 1v1 squads.
-* **Showdown match** - As a Tier B team with low budget, you couldn't create showdown matches even if you had money to. It was because game put ceiling on the prizepool as 8% of your current budget, which in many cases was around 7-8k, when the floor of prizepool was 10k.
-* **New update compatibiliyty** - adjusted the modifier to new RL carrer hub update (.33 beta)
-    * Facilities also support academy
-
-## Features - beta v0.6.3
+# Features
 * **Tier A and Tier B tournaments distinctions**: Tier B now has over **200** new real teams, and over **1000** new real players,
 * **Promotions and Relegations**: Every season 2 worst teams in A-tier falls into Tier B. Top 1 team from Tier B promote to Tier A, and top 2-5 compete in single-elimination bracket. Winner promote to Tier A,
 * **You can start as a Tier B team**: as a Tier B team the game gets longer - it takes more time to build strong squad,
@@ -82,10 +100,16 @@ From Minor changes, i added pop-up when there is new modifier release available.
 * **Realistic transfers**: Create better transfer logistics,
 * **More tournaments**: More tournaments for both Tier B and Tier B,
 * **Manager Transfers**: Be able to get offers from different clubs to change the club you manage,
-* **Make money become more useful**: Add new features to keep the entertainment in late-game,
-* **More Y enhancements**: Make Y feel even more immersive,
 
-## Known bugs and fixes:
+## Fixed bugs:
+* **Free agents import issue** - Free agents from a nation from your region were not counted as one. It caused import when it shouldn't
+* **Tournaments display** - Fixed Kick-off and EWC not loading properly, and not being shown on calendar,
+* **Vatira issue** - Vatira had id=0, which game thought it didn't exist. Because of that you could not move him in 2v2 or 1v1 squads.
+* **Showdown match** - As a Tier B team with low budget, you couldn't create showdown matches even if you had money to. It was because game put ceiling on the prizepool as 8% of your current budget, which in many cases was around 7-8k, when the floor of prizepool was 10k.
+* **New update compatibiliyty** - adjusted the modifier to new RL carrer hub update (.33 beta)
+    * Facilities also support academy
+
+## Known bugs:
 * Currently none as far as i know. Contact me on discord: **filip.223w** if you find any, or have suggestions.
 
 
