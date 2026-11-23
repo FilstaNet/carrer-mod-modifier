@@ -111,7 +111,6 @@ From Minor changes, i added pop-up when there is new modifier release available.
 ## Planning updates:
 * **Realistic transfers**: Create better transfer logistics,
 * **More tournaments**: More tournaments for both Tier B and Tier B,
-* **Manager Transfers**: Be able to get offers from different clubs to change the club you manage,
 
 ## Fixed bugs:
 * **Free agents import issue** - Free agents from a nation from your region were not counted as one. It caused import when it shouldn't
@@ -122,44 +121,4 @@ From Minor changes, i added pop-up when there is new modifier release available.
     * Facilities also support academy
 
 ## Known bugs:
-* Currently none as far as i know. Contact me on discord: **filip.223w** if you find any, or have suggestions.
-
-
-
-
-# **ARCHIVE**
-# Features - beta v0.4
-* **A-tier and B-tier touranemnts distinction**: B-tier now has over **200** new real teams, and over **1000** new real players,
-* **Promotions and Relegeations**: Every season 2 worst teams in A-tier falls into B-tier. Top 1 team from B-tier promote to A-tier, and top 2-5 compete in single-elimination bracket. Winner promote to A-tier,
-* **You can start as a B-tier team**: as a B-tier team the game gets longer - it takes more time to build storng squad,
-* **B-tier cups**: B-tier teams cannot compete in Opens or RLCS. They have their own B-tier cups with prizepools, and points,
-* **Academy**: For A-tier teams with enough money, Academy for training worse players. You get it when you either:
-   - Place twice in top 12 major
-   - Place at least once inm top 8 major
-   - qualify for world championship
-* Every season 3-6 yound players join free agent pool.
-* Highly extended betting possibilities
-* Refreshed tabs:
-    * Standings,
-    * notifications (inbox),
-    * Advance,
-    * Office media offers and betting,
-    * Calendar
-    * RLCS season overview,
-    * Recent results, Stats, Honours and Season history,
-    * Save generation screen (B-tier),
-    * Player transfers,
-    * Few other minor changes
-* Starring and archiving inbox mails,
-* Prizepool is now shown on each event,
-* New Y messages, keeping feed fresh,
-* Openable board expectation window with details,
-* Minor fixes and quality-of-life updates.
-
-## Planning updates:
-* **Realistic transfers**: Create better transfer logistics,
-* **More tournaments**: More tournaments for both A-tier and B-tier,
-* **Scrims**: Every scrim you play your players gets a little better
-
-## Known bugs and fixes:
 * Currently none as far as i know. Contact me on discord: **filip.223w** if you find any, or have suggestions.
