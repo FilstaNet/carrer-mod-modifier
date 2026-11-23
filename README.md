@@ -5,7 +5,19 @@ Adds new features and updates existing features to enhance gameplay for existing
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
 Scroll to bottom for features list
 
-# Latest changelog: Beta v0.9
+# Latest changelog v0.10
+* **Manager tab** *(Club -> manager)*
+   * Keep a track of all your seasons, trophies, **Clubs led**, manager points,
+* **Job offers**
+   * Job offers, through which you can start working with another team!
+   * For your first season you can't get sacked
+* **Fast sim**
+   * In menu you can enable fast sim - It plays the whole series at once and shows the score. Just as it was before beta.33
+* **Fixes**
+   * Fixes expectations - as a bad Tier A team, your board expected at least top 12, but it was a difficult target to hit when there is 32 teams in tier A now.
+   * Quick length settings - automatically applies to all tier B cups and swiss stages (Before it needed a season to update)
+
+# changelog: Beta v0.9
 * **Hosting**:
    * Host your own cup series with 3 or 4 stops and a finale.
    * Host official events - you can host one official event per season.
