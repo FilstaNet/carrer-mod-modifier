@@ -5,7 +5,9 @@ Adds new features and updates existing features to enhance gameplay for existing
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
 Scroll to bottom for features list
 
-# Latest changelog v0.11
+
+# Latest changelog v0.11 + v0.11.2
+* **Scouts** - you can manage scouts, fire them and hire them.
 * **Showmatches** - host and get invited to showmatches - Club -> Events, next to Off-season showdown
 * **Enhanced Inbox**
 MAJOR FIXES: 
