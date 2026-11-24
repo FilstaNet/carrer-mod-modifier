@@ -5,7 +5,14 @@ Adds new features and updates existing features to enhance gameplay for existing
 Go to `Releases` on right panel, and scroll down until you find `.exe` file. download it and follow the steps in the readme in the same releases page.
 Scroll to bottom for features list
 
-# Latest changelog v0.10
+# Latest changelog v0.11
+* **Showmatches** - host and get invited to showmatches - Club -> Events, next to Off-season showdown
+* **Enhanced Inbox**
+MAJOR FIXES: 
+- You get bigger budget for start as a tier B team,
+- ghost tournaments
+
+# changelog v0.10
 * **Manager tab** *(Club -> manager)*
    * Keep a track of all your seasons, trophies, **Clubs led**, manager points,
 * **Job offers**
