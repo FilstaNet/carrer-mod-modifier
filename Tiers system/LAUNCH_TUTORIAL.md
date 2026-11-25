@@ -1,57 +1,45 @@
-# How to launch the game with the Tiers system
+# How to install and start the Modifier
 
-The mod never edits the game. A small launcher starts the original `RL Career Hub.exe`, attaches to it for a moment, adds the Tier B code in memory, and detaches. Closing the game removes everything.
+You need the game (**RL Career Hub**) already installed. The Modifier is one small file that you put next to the game. It never changes the game itself, so you can always play the normal game too.
 
-## Requirements
-- Node.js 22 or newer . Check: `node -v`
-- The original game at your installed `RL Career Hub.exe`
-- Close any running copy of RL Career Hub first (otherwise the inspector port is busy).
+## 1. Download the Modifier
+1. Open the releases page: https://github.com/FilstaNet/carrer-mod-modifier/releases
+2. At the top is the newest version (it says **Latest**). Under it, click **Assets** if the list is hidden.
+3. Click the file that ends in **.exe** (`RL Career Hub - Modifier.exe`). It downloads like any other file, usually to your **Downloads** folder.
 
-## Start
-Open PowerShell and run:
+You do not need a GitHub account.
 
-```powershell
-cd "<path to this repo>\Tiers system"
-node launcher/start.js
-```
+## 2. Put it in the game folder
+1. Find your game folder. Easiest way: right-click the game's icon on your desktop or in the Start menu, then **Open file location**. (Start menu: you may need to right-click once more on the entry that opens.)
+   Usual place: `C:\Users\<your name>\AppData\Local\Programs\RL Career Hub`
+2. In that folder you will see **RL Career Hub.exe**.
+3. Move (or copy) **RL Career Hub - Modifier.exe** from Downloads into **this same folder**, next to it.
 
-1. The game window opens. Pass the normal beta gate as usual. The launcher never touches the gate.
-2. The terminal prints `Tier B injector is active. You can start a new career.` The launcher then exits; the game keeps running.
-3. **Start a NEW career** (Manager Career). In the club-select screen use the `TIER A` / `TIER B` buttons at the top left to pick a Tier B club. (a career saved before the mod has no Tier B data).
-4. Open Home → Standings: you should see `TIER A` / `TIER B` next to the heading. Click `TIER B`.
+## 3. Start the game with the Modifier
+1. Close the game if it is open.
+2. Double-click **RL Career Hub - Modifier.exe** (not the normal game icon).
+   Tip: right-click it, **Send to**, **Desktop (create shortcut)**, to start it from the desktop.
+3. The game opens as usual. Pass the beta screen. The Modifier attaches by itself; there is nothing to click.
+4. Start a **new Manager Career**. On the club-select screen use the **TIER A / TIER B** buttons at the top left.
 
-Different game location:
+Every time you want the Modifier features, start the game with the Modifier file. The normal game icon gives you the normal game.
 
-```powershell
-node launcher/start.js "C:\path\to\RL Career Hub.exe"
-```
+## Updating
+When a new version is out, a window appears in the game asking **Update now** or **Later**. Nothing is installed unless you click **Update now**.
 
-## Check that it worked
-Read the log (everything the mod does is written here):
+If the update fails (this can happen when the game is in `C:\Program Files`, where Windows blocks changes), download the new **.exe** from the releases page and replace the old one in the game folder.
 
-```powershell
-Get-Content "$env:TEMP\btier-injector.log" -Tail 20
-```
-
-Good signs: `hooked engine`, `selfcheck: teams 336, tier B teams 224`, `ui hook installed`.
-
-Diagnostics only (injects nothing):
-
-```powershell
-node launcher/start.js --probe
-```
-
-## Every time
-You must start the game through the launcher, not the normal shortcut. A normal start gives the original game with no Tier B.
-
-## Troubleshooting
-| Problem | Fix |
+## If something goes wrong
+| Problem | What to do |
 |---|---|
-| `inspector port did not open` | Another copy is running or port 9339 is busy. Close the game, or set another port: `$env:BTIER_PORT=9400; node launcher/start.js` |
-| `Game exe not found` | Pass the exe path as an argument (see above). |
-| Launcher waits and prints nothing new | You have not passed the beta gate yet; it waits up to 20 minutes. |
-| No TIER A/B buttons | The career is old. Start a new career. Also check the log for `ui hook failed`. |
-| Something looks wrong | Close the game and start it normally: the original game is untouched. |
+| Windows says "Windows protected your PC" | The file is not signed. Click **More info**, then **Run anyway**. |
+| "Put this file in the same folder as RL Career Hub.exe" | The Modifier is not in the game folder. See step 2. |
+| "The mod could not attach to the game" | Another copy of the game is open. Close every copy and try again. |
+| "The Tiers Mod launcher is already running" | Close the Modifier and the game, wait a few seconds, start again. If it still shows, restart the PC. |
+| No TIER A / TIER B buttons | The career is old. Start a **new** career. |
+| Something looks wrong | Close everything and start the game with the normal icon. The original game is untouched. |
 
-## Known limits (see PROGRESS_LOG.md)
-Player Career is not available in this build, so Tier B can only be played as Manager Career. Tier B team names outside Europe are mostly unverified amateur teams.
+## Good to know
+- Old saves still open but have no Tier B. Saves made with the Modifier should be played with the Modifier.
+- To remove the Modifier: delete the **.exe**, and the folder `%LOCALAPPDATA%\RLCareerHubTiersMod` (about 90 MB; paste that into the File Explorer address bar).
+- Player Career is not available; Tier B is played as Manager Career.
