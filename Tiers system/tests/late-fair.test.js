@@ -43,4 +43,14 @@ const step = (st, rand) => { const r = engine.advance(st, rand, 'day'); if (r.st
     assert.strictEqual(x.placement, place, 'the real place is back after the call');
   }
 }
+// 4) the board window shows the target from day one (before the first tick): top 22 for squad ranks 25-32, top 16 for 17-24, the game's own above
+{
+  const str = (t) => (t.playerIds || []).map((id) => engine.playerById(probe, id)).filter((p) => p && !p.isUser).map((p) => p.rating || 0).sort((a, b) => b - a).slice(0, 3).reduce((a, b) => a + b, 0) / 3;
+  const reg = probe.teams.filter((t) => t.region === 'eu' && !t.nation && t.tier !== 'B').sort((a, b) => str(b) - str(a) || a.id - b.id);
+  for (const [rank, want] of [[17, 16], [24, 16], [25, 22], [32, 22]]) {
+    const { st } = start(reg[rank - 1].name, 7);
+    assert.strictEqual(engine.boardDetail(st).domestic.target, want, 'rank ' + rank + ' target');
+  }
+  assert(engine.boardDetail(start(reg[0].name, 7).st).domestic.target < 12, 'a top club keeps the game target');
+}
 console.log('late-fair: ok');

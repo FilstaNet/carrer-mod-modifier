@@ -190,7 +190,7 @@ function install(engine, ev, opts = {}) {
       else if (sc.date < cur) safe('overdue', () => simulate(s, sc, fx || null)); // the day passed without the user playing it
     }
     // fixtures of finished / cancelled scrims leave the game's list; the history keeps the full copy
-    s.fixtures = s.fixtures.filter((f) => !f.scrimId || (u.list.find((x) => x.id === f.scrimId) || {}).status === 'scheduled');
+    const keep = addDays(cur, -2); s.fixtures = s.fixtures.filter((f) => !f.scrimId || (f.played && f.date >= keep) || (u.list.find((x) => x.id === f.scrimId) || {}).status === 'scheduled'); // a played one stays 2 days: the result screen reads it
   }
 
   // ---------- action channel ----------

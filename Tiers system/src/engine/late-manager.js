@@ -164,32 +164,35 @@ function install(engine, opts = {}) {
     if (reg.length < 32) return;
     const rank = reg.slice().sort((a, b) => strength(state, b) - strength(state, a) || a.id - b.id).findIndex((t) => t.id === me.id) + 1;
     if (rank > 16 && state.boardExpect.domestic > 1) state.boardExpect.domestic = 1;
-    if (state.uxManager) state.uxManager.worst = rank > WORST_FROM; // the worst clubs: "top 22 once a split" (see withWorstView)
+    if (state.uxManager) { state.uxManager.worst = rank > WORST_FROM; state.uxManager.openTarget = rank > WORST_FROM ? WORST_TARGET : rank > 16 ? MID_TARGET : GAME_TARGET; } // ranks 25-32: "top 22", 17-24: "top 16" (see withWorstView)
   }
   // The game judges an Open as place <= 12 for the two lowest levels (an internal constant that cannot be patched). For the worst clubs of a 32-club region
   // the target is "top 22" (qualify, or go out 2-3 in the Swiss): while the game judges or reports the board, the user's own Open places 13..22 read as 12.
   // The real places are put back right after the call (also in the archived season, which the rollover copies in the middle of the call).
-  const WORST_FROM = 24, GAME_TARGET = 12, WORST_TARGET = 22;
+  const WORST_FROM = 24, GAME_TARGET = 12, MID_TARGET = 16, WORST_TARGET = 22;
+  // the flags are set once per season; do it before the first board call too (a new career has not had its first day yet)
+  const ensureFair = (state) => { const f = data(state); if (f.fairSeason !== state.season) { f.fairSeason = state.season; fairExpect(state); } };
   function withWorstView(state, fn, fix) {
-    const d = state && state.uxManager;
-    if (!d || !d.worst || !careerOk(state)) return fn();
+    if (careerOk(state)) ensureFair(state);
+    const d = state && state.uxManager, goal = d && d.openTarget || GAME_TARGET;
+    if (!d || goal <= GAME_TARGET || !careerOk(state)) return fn();
     try { if (engine.uxSwiss && engine.uxSwiss.markOut) engine.uxSwiss.markOut(state); } catch (e) { /* the places below are then the game's own */ }
     const saved = [];
     for (const o of state.events || []) {
       if (o.kind !== 'open') continue;
       const x = (o.standings || []).find((q) => q.teamId === state.userTeamId);
-      if (x && x.placement > GAME_TARGET && x.placement <= WORST_TARGET) { saved.push({ ev: o.id, name: o.name, x, p: x.placement }); x.placement = GAME_TARGET; }
+      if (x && x.placement > GAME_TARGET && x.placement <= goal) { saved.push({ ev: o.id, name: o.name, x, p: x.placement }); x.placement = GAME_TARGET; }
     }
-    if (!saved.length) { const r = fn(); return fix ? fix(r, saved) : r; }
-    try { const r = fn(); return fix ? fix(r, saved) : r; } finally {
+    if (!saved.length) { const r = fn(); return fix ? fix(r, saved, goal) : r; }
+    try { const r = fn(); return fix ? fix(r, saved, goal) : r; } finally {
       for (const q of saved) q.x.placement = q.p;
       for (const h of (state.seasonHistory || []).slice(-2)) for (const o of h.events || []) for (const q of saved) if (o.id === q.ev) { const y = (o.standings || []).find((z) => z.teamId === state.userTeamId); if (y && y.placement === GAME_TARGET) y.placement = q.p; }
     }
   }
   // the board window: target 22 and the real places (the game's own "met" already used the 22 rule)
-  const showReal = (r, saved) => {
+  const showReal = (r, saved, goal) => {
     const dm = r && r.domestic; if (!dm) return r;
-    dm.target = WORST_TARGET;
+    dm.target = goal;
     for (const sp of dm.splits || []) for (const row of sp.rows || []) { const q = saved.find((z) => z.name === row.name); if (q) row.place = q.p; }
     return r;
   };
@@ -259,7 +262,7 @@ function install(engine, opts = {}) {
   const adv = engine.advance;
   engine.advance = function advanceWithManager(state) {
     const r = adv.apply(this, arguments);
-    safe('daily', () => { tick(state); if (careerOk(state)) { offerTick(state); honey(state); { const f = state.uxManager; if (f.fairSeason !== state.season) { f.fairSeason = state.season; fairExpect(state); } } const d = state.uxManager; if (d && d.stints.length > 1 && d.nameFor !== state.userTeamId) { d.nameFor = state.userTeamId; renameSave(state); } } });
+    safe('daily', () => { tick(state); if (careerOk(state)) { offerTick(state); honey(state); ensureFair(state); const d = state.uxManager; if (d && d.stints.length > 1 && d.nameFor !== state.userTeamId) { d.nameFor = state.userTeamId; renameSave(state); } } });
     return r;
   };
   // what the UI shows: finished stints plus the running one (live series count)

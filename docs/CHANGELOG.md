@@ -7,7 +7,13 @@ Scroll to bottom for features list
 
 Note for v0.11.4:
 Couple bug fixed caused by build version issues
-# Latest changelog v0.11.5
+# Latest changelog v0.11.6
+* **Board targets**: top 22 for the 8 weakest clubs of a 32-club region, top 16 for ranks 17-24, shown from day one.
+* **Residency**: free agents from your own region are no longer counted as imports; the player search by region lists them.
+* **Fixes**: result screen after a fast-simulated showmatch/scrim, club logo beside the name, Tier B event view opens 2 days before.
+* **Inbox**: Open button on Y messages; shorter showmatch messages.
+
+# Changelog v0.11.5
 * **Updates ask first** - no silent install. A popup in the game asks Update now / Later. If the folder is not writable (e.g. Program Files), it tells you to replace the .exe by hand.
 * **Scrims no longer count in the RLCS standings.**
 * **Y**: "Y mood" is now "Y opinion"; replies follow what you wrote (opinions like "sell X" get opinion replies), fewer repeated comments, more varied fan names.

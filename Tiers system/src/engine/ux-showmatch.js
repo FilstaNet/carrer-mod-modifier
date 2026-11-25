@@ -132,7 +132,7 @@ function create(engine, h, log = () => {}) {
     const v = { id: s.nextId++, sent: today, start, expires: addDays(start, -2), mode, opp, oppName, fee: feeFor(me.followers), part: partOf(feeFor(me.followers)), growth: growthFor(me.followers), status: 'open' };
     L.push(v);
     h.note(s, 'smatch_invite', oppName + ' invite you to a ' + mode + ' showmatch',
-      oppName + ' would like to play a ' + mode + ' exhibition against you on ' + start + ' (best of 3).\nTaking part pays ' + h.fmt(v.part) + '; win it and take ' + h.fmt(v.fee) + ', +' + h.fmt(BONUS) + ' for a clean sweep and +' + h.fmt(BONUS) + ' for an upset. Your club gains followers either way.\nAnswer by ' + v.expires + '.', { inviteId: v.id });
+      oppName + ' would like to play a ' + mode + ' exhibition against you on ' + start + ' (best of 3).\nTaking part pays ' + h.fmt(v.part) + '; winning, a clean sweep and an upset pay extra. Your club gains followers either way.\nAnswer by ' + v.expires + '.', { inviteId: v.id });
   }
   function accept(s, id) {
     const v = invList(s).find((x) => x.id === Number(id));
@@ -142,7 +142,7 @@ function create(engine, h, log = () => {}) {
     const u = h.ensure(s), sm = { id: s.nextId++, seq: ++u.seq, kind: 'smatch', invite: true, mode: v.mode, name: v.mode + ' Showmatch vs ' + v.oppName, start: v.start, prize: v.fee, part: v.part, n: 1, pairs: [{ a: { me: true }, b: v.opp, bo: BO }],
       cost: 0, gate: 0, growth: v.growth, mult: 1, offers: [], sponsors: [], sponsorIncome: 0, done: false };
     list(s).push(sm); v.status = 'accepted'; v.smId = sm.id; closeMail(s, v);
-    h.note(s, 'news', 'Showmatch accepted', 'You play ' + v.oppName + ' on ' + v.start + ' (' + v.mode + ', best of 3). Taking part pays ' + h.fmt(v.part) + ', a win ' + h.fmt(v.fee) + '.');
+    h.note(s, 'news', 'Showmatch accepted', 'You play ' + v.oppName + ' on ' + v.start + ' (' + v.mode + ', best of 3). Taking part pays ' + h.fmt(v.part) + '; a win pays more.');
     return { ok: true, smatch: sm };
   }
   function decline(s, id) {

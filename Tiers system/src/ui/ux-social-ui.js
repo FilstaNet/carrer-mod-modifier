@@ -118,5 +118,10 @@
     const inp = document.querySelector('#x-search, [data-action="x-search"], .xs-search input'); if (inp) inp.value = xQuery;
     render();
   }, true);
+  // inbox: the Y message from a creator gets an Open button (the game's own chat view)
+  if (typeof msgActionsHtml === 'function') {
+    const oActions = msgActionsHtml;
+    msgActionsHtml = function (m) { return m && m.data && m.data.cid != null && /sent you a message on Y/.test(m.title || '') ? '<div class="btnrow" style="justify-content:flex-start;margin-top:8px"><button class="btn primary sm" data-action="x-chat-open" data-cid="' + m.data.cid + '">' + esc(tl('Open')) + '</button></div>' : oActions.apply(this, arguments); }; // eslint-disable-line no-global-assign
+  }
   try { render(); } catch (e) { /* no career open yet */ }
 })();

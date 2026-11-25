@@ -33,7 +33,8 @@
     groups: c.groups || [], slots: c.slots || [], standings: c.standings || [], field: (c.field && c.field.length ? c.field : teamsOf(c.region).map((t) => t.id)), championId: c.championId, groupSize: 4, qualifierCount: (c.groups || []).length * 2 || 16, international: false, skipped: !!c.skipped });
   const bCups = () => { try { return hasB() ? C().tierB.cups.filter((c) => c.region === region()).map(cupEvent) : []; } catch (e) { return []; } };
   const dayAfter = (d) => addDaysIso(d, 1); // an event view lasts one day longer than the event: the finished bracket stays on the Home
-  const liveCup = () => bCups().find((e) => e.stage === 'groups' || e.stage === 'playoffs') || bCups().find((e) => e.stage === 'done' && !e.skipped && e.endDate && e.startDate <= C().currentDate && C().currentDate <= dayAfter(e.endDate)) || null;
+  const liveCup = () => bCups().find((e) => (e.stage === 'groups' || e.stage === 'playoffs') && (!e.startDate || addDaysIso(e.startDate, -2) <= C().currentDate)) || // the view opens 2 days before the cup (it is drawn a week before)
+     bCups().find((e) => e.stage === 'done' && !e.skipped && e.endDate && e.startDate <= C().currentDate && C().currentDate <= dayAfter(e.endDate)) || null;
   // the promotion group is a live event too (from its first matchday): the Home gets the event layout with the group table
   const livePromo = () => { try { const p = hasB() ? promoOf() : null; return p && p.format === 'rr' && p.startDate <= C().currentDate && (p.stage !== 'done' || C().currentDate <= dayAfter(p.endDate)) ? p : null; } catch (e) { return null; } };
   // A hosted Invitational / showdown (ux-club-ui) adds a third tab, only while it runs: window.__uxHosted() -> { key, label, name, body(), card(), fixtures() } or null.
@@ -507,7 +508,7 @@
       const r = searchF.region;
       if (!hasB() || !r || r === 'any' || /_b$/.test(r)) return origSearch.apply(this, arguments);
       searchF.region = 'any';
-      try { return origSearch.apply(this, arguments).filter((p) => { const t = p.teamId >= 0 ? teamById(p.teamId) : null; return t && String(t.region || '').replace(/_b$/, '') === r; }); } finally { searchF.region = r; }
+      try { return origSearch.apply(this, arguments).filter((p) => { const t = p.teamId >= 0 ? teamById(p.teamId) : null; const base = (x) => String(x || '').replace(/_b$/, ''); return t ? base(t.region) === r : typeof p.home === 'string' && base(p.home) === r; }); } finally { searchF.region = r; }
     };
   }
   try { render(); } catch (e) { /* no career open yet */ }

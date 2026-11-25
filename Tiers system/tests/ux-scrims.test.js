@@ -62,12 +62,13 @@ const bookOk = (st, o) => { for (const t of st.teams.filter((x) => x.region === 
   for (const p of squad) { const now = p.ratingExact == null ? p.rating : p.ratingExact; if (lineup2.includes(p.id)) assert(now >= before.get(p.id) && now - before.get(p.id) < 0.5, 'small boost for ' + p.name); else assert(now === before.get(p.id), 'no boost for the bench'); }
   assert(bench.length === 0 || true);
   for (const p of st.players) assert(JSON.stringify(p.season) === base.get(p.id), 'no season stats from the scrim');
-  assert(!st.fixtures.some((f) => f.scrimId && f.played), 'finished scrim fixtures are removed');
+  assert(st.fixtures.some((f) => f.scrimId === r2.scrim.id && f.played), 'a played scrim fixture stays 2 days (the result screen reads it)');
+  { const d0 = st.currentDate, t = new Date(d0 + 'T12:00:00Z'); t.setUTCDate(t.getUTCDate() + 3); st.currentDate = t.toISOString().slice(0, 10); engine.uxScrims.tick(st); assert(!st.fixtures.some((f) => f.scrimId === r2.scrim.id), 'then it is removed'); st.currentDate = d0; }
   // the 3v3 one: a fixture appears the day before, simulating it is allowed
   for (let i = 0; i < 40 && st.uxScrims.history.length < 2; i++) { const r = engine.advance(st, rand, 'day'); if (r.stopped === 'matchday') { const f = engine.fixtureById(st, r.fixtureId); if (f && !f.played) { assert(f.scrimId, 'only the scrim is due'); engine.simulateFixture(st, f, rand); } } }
   const h3 = st.uxScrims.history[1]; assert(h3 && h3.fmt === '3v3' && h3.fx.games.every((g) => g.homeLines.length === 3), 'the 3v3 scrim was simulated');
   for (const p of st.players) assert(JSON.stringify(p.season) === base.get(p.id), 'no season stats from the 3v3 scrim');
-  engine.advance(st, rand, 'day');
+  for (let i = 0; i < 3; i++) engine.advance(st, rand, 'day'); // a played one stays 2 days
   assert(!st.fixtures.some((f) => f.scrimId), 'no scrim fixture left in the game');
   assert(snap().length > 0);
 }

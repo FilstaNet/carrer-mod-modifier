@@ -335,7 +335,7 @@ function create(engine, opts = {}) {
     engine.dmList(state).unshift({ cid: c.id, msgs: [{ mine: false, text, date: day }], stage: 'asking', demand, offer: 0, tries: 0, closed: false, replyOn: null, seen: false, inbound: true });
     u.lastDm = day;
     try {
-      state.inbox.push({ id: state.nextId++, date: day, unread: true, resolved: false, type: 'news', title: c.name + ' sent you a message on Y', body: c.name + ' (' + kfmt(c.followers) + ' followers) wants to work with ' + team.name + '. Open Y -> Messages to answer.' });
+      state.inbox.push({ id: state.nextId++, date: day, unread: true, resolved: false, type: 'news', data: { cid: c.id }, title: c.name + ' sent you a message on Y', body: c.name + ' (' + kfmt(c.followers) + ' followers) wants to work with ' + team.name + '. Open Y -> Messages to answer.' });
     } catch (e) { /* inbox optional */ }
   }
 

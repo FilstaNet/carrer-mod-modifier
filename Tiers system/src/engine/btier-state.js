@@ -68,11 +68,12 @@ function syncHomes(state) {
   const me = teams.get(state.userTeamId);
   const live = new Set(['pending', 'fee_accepted', 'awaiting_player']);
   const pending = new Set((state.offersOut || []).filter((o) => live.has(o.status)).map((o) => o.playerId));
+  for (const r of state.pendingReplies || []) if (r.kind === 'contract' && r.data && r.data.playerId != null) pending.add(r.data.playerId); // a free agent's contract talk: the game checks residency when the reply comes (days later)
   const meHome = me && me.region ? me.region.replace(/_b$/, '') : null;
   for (const p of state.players || []) {
     if (typeof p.home !== 'string') {
       // a signed / pending player without a stored home (a free agent of Scottish nationality, say) would count as an import for a Tier B club
-      if (!baseHomeOf || (p.teamId !== state.userTeamId && !pending.has(p.id))) continue;
+      if (!baseHomeOf || (p.teamId !== state.userTeamId && p.teamId >= 0 && !pending.has(p.id))) continue; // free agents get theirs too (the player search lists them by region)
       const g = baseHomeOf(state, p); if (typeof g !== 'string') continue;
       p.home = g;
     }

@@ -407,7 +407,7 @@ function create(engine, ev, opts = {}) {
     safe('chemistry', () => trackChem(state));
     staff.tick(state);
     safe('invitationals', () => { for (const inv of u.inv) stepInvitational(state, inv); });
-    safe('showdowns', () => { for (const sh of u.shows) { if (sh.done) continue; if (sh.live || (sh.start <= state.currentDate && openShowdown(state, sh))) stepShow(state, sh); } sm.tick(state); state.fixtures = state.fixtures.filter((f) => f.showId == null || !f.played); }); // played showdown / showmatch fixtures leave the game's list the next day
+    safe('showdowns', () => { for (const sh of u.shows) { if (sh.done) continue; if (sh.live || (sh.start <= state.currentDate && openShowdown(state, sh))) stepShow(state, sh); } sm.tick(state); const keep = addDays(state.currentDate, -2); state.fixtures = state.fixtures.filter((f) => f.showId == null || !f.played || f.date >= keep); }); // played showdown / showmatch fixtures leave the game's list after 2 days (the result screen reads them)
   }
 
   // ========================= action channel =========================
