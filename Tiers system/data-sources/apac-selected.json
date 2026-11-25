@@ -1,0 +1,834 @@
+[
+ {
+  "name": "Small Esports",
+  "opens": 5,
+  "score": 520,
+  "bestRank": 15,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Profile_RL",
+     "link": null,
+     "flag": "us"
+    },
+    {
+     "name": "Kuro",
+     "link": null,
+     "flag": "us"
+    },
+    {
+     "name": "Lich",
+     "link": null,
+     "flag": "us"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Spite",
+  "opens": 5,
+  "score": 501,
+  "bestRank": 24,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "Crunchy",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Claw-Z",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Fortymula7",
+     "link": null,
+     "flag": null
+    }
+   ]
+  }
+ },
+ {
+  "name": "GracesBlaze",
+  "opens": 4,
+  "score": 429,
+  "bestRank": 14,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Hiroki",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "Medoūsa",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "yuuyu1173",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "SNG",
+  "opens": 4,
+  "score": 417,
+  "bestRank": 21,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Rub1n",
+     "link": null,
+     "flag": "ru"
+    },
+    {
+     "name": "aloneeyy",
+     "link": null,
+     "flag": "ru"
+    },
+    {
+     "name": "Fflusss",
+     "link": null,
+     "flag": "de"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Pxress’s Habibtis",
+  "opens": 3,
+  "score": 358,
+  "bestRank": 7,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Aziz",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Jushu",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Mscdi",
+     "link": null,
+     "flag": null
+    }
+   ]
+  }
+ },
+ {
+  "name": "RHHS",
+  "opens": 3,
+  "score": 358,
+  "bestRank": 8,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "hadiryas",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "hxll0.",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "ripoopi",
+     "link": null,
+     "flag": null
+    }
+   ]
+  }
+ },
+ {
+  "name": "Random.",
+  "opens": 3,
+  "score": 327,
+  "bestRank": 13,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "Deidara",
+     "link": "killerninja",
+     "flag": null
+    },
+    {
+     "name": "nukezz",
+     "link": null,
+     "flag": "de"
+    },
+    {
+     "name": "itachi.",
+     "link": "Itachi (Pakistani Player)",
+     "flag": null
+    }
+   ]
+  }
+ },
+ {
+  "name": "STR",
+  "opens": 3,
+  "score": 317,
+  "bestRank": 19,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_2.wiki",
+   "players": [
+    {
+     "name": "Re612",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "Samekun_168",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "tetra_256",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "YamiFinance",
+  "opens": 3,
+  "score": 310,
+  "bestRank": 20,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "obu_c",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "synxqc",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "myla.",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Winter Soldiers",
+  "opens": 2,
+  "score": 221,
+  "bestRank": 15,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Ghassan.",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Kxrma",
+     "link": null,
+     "flag": "uken"
+    },
+    {
+     "name": "IslamDunk",
+     "link": null,
+     "flag": "eg"
+    }
+   ]
+  }
+ },
+ {
+  "name": "TTG",
+  "opens": 2,
+  "score": 220,
+  "bestRank": 15,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "Raidersic",
+     "link": null,
+     "flag": "sa"
+    },
+    {
+     "name": "Death",
+     "link": "Danger",
+     "flag": "sa"
+    },
+    {
+     "name": "Sparky",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "OVO",
+  "opens": 2,
+  "score": 217,
+  "bestRank": 17,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "Hammer",
+     "link": "HammerPump",
+     "flag": "fi"
+    },
+    {
+     "name": "MustardJ",
+     "link": null,
+     "flag": "be"
+    },
+    {
+     "name": "Matheo",
+     "link": null,
+     "flag": "world"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Ashva Esports",
+  "opens": 2,
+  "score": 211,
+  "bestRank": 18,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "jae.0511",
+     "link": null,
+     "flag": "sg"
+    },
+    {
+     "name": "paykeo.",
+     "link": null,
+     "flag": "my"
+    },
+    {
+     "name": "QQQQQQ",
+     "link": null,
+     "flag": "sg"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bombardiro Crocodilo",
+  "opens": 2,
+  "score": 210,
+  "bestRank": 18,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "Talok",
+     "link": null,
+     "flag": "uksc"
+    },
+    {
+     "name": "SirCoffee",
+     "link": null,
+     "flag": "uken"
+    },
+    {
+     "name": "JisooRL",
+     "link": null,
+     "flag": "uken"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Killer Whales",
+  "opens": 2,
+  "score": 209,
+  "bestRank": 23,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_4.wiki",
+   "players": [
+    {
+     "name": "IamHaru.",
+     "link": "IamHaru",
+     "flag": null
+    },
+    {
+     "name": "Assault",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "SupRa",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Team SET",
+  "opens": 2,
+  "score": 208,
+  "bestRank": 21,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "revk",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "spinachos",
+     "link": null,
+     "flag": "mv"
+    },
+    {
+     "name": "Thasmeen",
+     "link": null,
+     "flag": "mv"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Chocominto",
+  "opens": 2,
+  "score": 202,
+  "bestRank": 24,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Tarokin",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "wayzooo",
+     "link": null,
+     "flag": "fr"
+    },
+    {
+     "name": "RYO03",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Badmen",
+  "opens": 1,
+  "score": 116,
+  "bestRank": 13,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_5.wiki",
+   "players": [
+    {
+     "name": "Ficeo",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Weins",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "bedo",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "MGL eSports",
+  "opens": 1,
+  "score": 114,
+  "bestRank": 15,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "zTsoo",
+     "link": null,
+     "flag": "mn"
+    },
+    {
+     "name": "9lance",
+     "link": null,
+     "flag": "mn"
+    },
+    {
+     "name": "Dalanz",
+     "link": null,
+     "flag": "mn"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bigger Dawgs",
+  "opens": 1,
+  "score": 113,
+  "bestRank": 16,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Tinny",
+     "link": "Tinny_(Hong Kong Player)",
+     "flag": "hk"
+    },
+    {
+     "name": "Riyal",
+     "link": null,
+     "flag": "in"
+    },
+    {
+     "name": "StormM",
+     "link": null,
+     "flag": "us"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Samcro",
+  "opens": 1,
+  "score": 112,
+  "bestRank": 17,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Gintoki",
+     "link": null,
+     "flag": "sa"
+    },
+    {
+     "name": "Garvey",
+     "link": null,
+     "flag": "sa"
+    },
+    {
+     "name": "Sopranos",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Karmid Flop",
+  "opens": 1,
+  "score": 112,
+  "bestRank": 17,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_4.wiki",
+   "players": [
+    {
+     "name": "Harry",
+     "link": "Harrylomein",
+     "flag": "hk"
+    },
+    {
+     "name": "Ekninito",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "Dragon-RTS",
+     "link": null,
+     "flag": "sg"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Nalla Esports",
+  "opens": 1,
+  "score": 112,
+  "bestRank": 17,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "NEMoon_μ",
+     "link": null,
+     "flag": null
+    },
+    {
+     "name": "wildfire456",
+     "link": null,
+     "flag": "pk"
+    },
+    {
+     "name": "zwix",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "PKCT",
+  "opens": 1,
+  "score": 111,
+  "bestRank": 18,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Birmingham_Major_Asia-Pacific_Open_2.wiki",
+   "players": [
+    {
+     "name": "tauruss",
+     "link": null,
+     "flag": "es"
+    },
+    {
+     "name": "Kaoss",
+     "link": null,
+     "flag": "es"
+    },
+    {
+     "name": "Catu",
+     "link": null,
+     "flag": "es"
+    }
+   ]
+  }
+ },
+ {
+  "name": "No Brake Boys",
+  "opens": 1,
+  "score": 111,
+  "bestRank": 18,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Paris_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Abdul",
+     "link": null,
+     "flag": "pk"
+    },
+    {
+     "name": "hassan",
+     "link": null,
+     "flag": "pk"
+    },
+    {
+     "name": "Yasir",
+     "link": null,
+     "flag": "pk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "pariramchiki2.0",
+  "opens": 1,
+  "score": 109,
+  "bestRank": 20,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Raleigh_Major_Asia-Pacific_Open_6.wiki",
+   "players": [
+    {
+     "name": "Sakura",
+     "link": null,
+     "flag": "ru"
+    },
+    {
+     "name": "TeXQ",
+     "link": null,
+     "flag": "ru"
+    },
+    {
+     "name": "Ericted.",
+     "link": null,
+     "flag": "ru"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Social Experiment",
+  "opens": 1,
+  "score": 108,
+  "bestRank": 21,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Birmingham_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "Maxxu",
+     "link": null,
+     "flag": "uk"
+    },
+    {
+     "name": "Wanovic",
+     "link": "Wan",
+     "flag": "uken"
+    },
+    {
+     "name": "digitalkiwi",
+     "link": null,
+     "flag": "uk"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Gen Team",
+  "opens": 1,
+  "score": 108,
+  "bestRank": 21,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_2.wiki",
+   "players": [
+    {
+     "name": "butterfly",
+     "link": null,
+     "flag": "id"
+    },
+    {
+     "name": "jarbba",
+     "link": null,
+     "flag": "id"
+    },
+    {
+     "name": "Kapokle",
+     "link": null,
+     "flag": "ro"
+    }
+   ]
+  }
+ },
+ {
+  "name": "bredik Esports",
+  "opens": 1,
+  "score": 107,
+  "bestRank": 22,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Birmingham_Major_Asia-Pacific_Open_2.wiki",
+   "players": [
+    {
+     "name": "vaflich",
+     "link": null,
+     "flag": "ee"
+    },
+    {
+     "name": "lopushok",
+     "link": null,
+     "flag": "rs"
+    },
+    {
+     "name": "jamalunga",
+     "link": null,
+     "flag": "lv"
+    }
+   ]
+  }
+ },
+ {
+  "name": "no glove no love",
+  "opens": 1,
+  "score": 107,
+  "bestRank": 22,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2026_Boston_Major_Asia-Pacific_Open_1.wiki",
+   "players": [
+    {
+     "name": "maran",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "pepsicola",
+     "link": null,
+     "flag": "jp"
+    },
+    {
+     "name": "yung moolah",
+     "link": null,
+     "flag": "jp"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Team Ketchup",
+  "opens": 1,
+  "score": 106,
+  "bestRank": 23,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Birmingham_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "Benji Da Sheep",
+     "link": "Bentzi",
+     "flag": "ukwa"
+    },
+    {
+     "name": "Ell1sRai",
+     "link": "Ell1s",
+     "flag": "ukwa"
+    },
+    {
+     "name": "Lidw",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "no one",
+  "opens": 1,
+  "score": 104,
+  "bestRank": 25,
+  "latest": {
+   "file": "Rocket_League_Championship_Series_2025_Birmingham_Major_Asia-Pacific_Open_3.wiki",
+   "players": [
+    {
+     "name": "Turki",
+     "link": null,
+     "flag": "sa"
+    },
+    {
+     "name": "Lonely Eyad",
+     "link": null,
+     "flag": "sa"
+    },
+    {
+     "name": "hvxe",
+     "link": null,
+     "flag": "sa"
+    }
+   ]
+  }
+ }
+]

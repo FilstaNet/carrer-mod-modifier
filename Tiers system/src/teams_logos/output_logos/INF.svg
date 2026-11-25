@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="circle-clip"><circle cx="60" cy="60" r="56"/></clipPath>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#3f1b3a"/>
+  <circle cx="60" cy="60" r="38" fill="#8e0d80"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#f25056" stroke-width="2.5"/><circle cx="60" cy="60" r="50" fill="none" stroke="#f25056" stroke-width="1.5" opacity="0.7"/>
+  
+        <g transform="translate(42, 18) scale(1.5)" fill="none" stroke="#f25056" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2L2 12l10 10 10-10L12 2z"/>
+        </g>
+        <text x="60" y="79" dy=".35em" text-anchor="middle"
+              font-family="'Segoe UI', Roboto, Arial, sans-serif" font-weight="900" font-size="30" letter-spacing="1.5"
+              fill="#F8FAFC" stroke="#090D16" stroke-width="3.5" paint-order="stroke">
+          INF
+        </text>
+</svg>

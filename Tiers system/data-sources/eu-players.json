@@ -1,0 +1,1010 @@
+{
+ "ajg": {
+  "title": "Ajg",
+  "found": true,
+  "nation": "Argentina",
+  "born": "2004-06-19",
+  "id": "ajg"
+ },
+ "Dorito": {
+  "title": "Dorito",
+  "found": true,
+  "nation": "Spain",
+  "born": "2004-02-19",
+  "id": "Dorito"
+ },
+ "Rxii": {
+  "title": "Rxii",
+  "found": true,
+  "nation": "Spain",
+  "born": "2004-05-30",
+  "id": "Rxii"
+ },
+ "dayyshift": {
+  "title": "Dayyshift",
+  "found": true,
+  "nation": "Germany",
+  "born": "2009-06-03",
+  "id": "dayyshift"
+ },
+ "Compact": {
+  "title": "Compact",
+  "found": true,
+  "nation": "Belgium",
+  "born": "2004-10-20",
+  "id": "Compact"
+ },
+ "Toxiic": {
+  "title": "Toxiic",
+  "found": true,
+  "nation": "England",
+  "born": "2004-06-17",
+  "id": "Toxiic"
+ },
+ "AztraL": {
+  "title": "AztraL",
+  "found": true,
+  "nation": "Belgium",
+  "born": "2002-12-26",
+  "id": "AztraL"
+ },
+ "Growlii": {
+  "title": "Growlii",
+  "found": true,
+  "nation": "England",
+  "born": "2004-12-29",
+  "id": "Growlii"
+ },
+ "rysfox.": {
+  "title": "Rysfox",
+  "found": true,
+  "nation": "Belgium",
+  "born": "2007-09-21",
+  "id": "rysfox."
+ },
+ "Mozzarella": {
+  "title": "Mozzarella",
+  "found": true,
+  "nation": "France",
+  "born": "2007-08-22",
+  "id": "Mozzarella"
+ },
+ "Pisky": {
+  "title": "Pisky",
+  "found": true,
+  "nation": "France",
+  "born": "2005-05-06",
+  "id": "Pisky"
+ },
+ "rust ez95": {
+  "title": "Rust ez95",
+  "found": true,
+  "nation": "France",
+  "born": "2007-05-27",
+  "id": "rust ez95"
+ },
+ "Jup": {
+  "title": "Jup",
+  "found": true,
+  "nation": "Norway",
+  "born": "2006-02-09",
+  "id": "Jup"
+ },
+ "noahsaki": {
+  "title": "Noahsaki",
+  "found": true,
+  "nation": "England",
+  "born": "2005-05-24",
+  "id": "noahsaki"
+ },
+ "Thyyder": {
+  "title": "Thyyder",
+  "found": true,
+  "nation": "France",
+  "born": "2004-10-26",
+  "id": "Thyyder"
+ },
+ "prozy": {
+  "title": "Prozy",
+  "found": true,
+  "nation": "Switzerland",
+  "born": "2011-02-18",
+  "id": "prozy"
+ },
+ "energizer": {
+  "title": "Energizer",
+  "found": true,
+  "nation": "Germany",
+  "born": "2004",
+  "id": "energizer"
+ },
+ "cocoo": {
+  "title": "Cocoo",
+  "found": true,
+  "nation": "Spain",
+  "born": "2005-04-20",
+  "id": "cocoo"
+ },
+ "sml.": {
+  "title": "Sml",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Syke": {
+  "title": "Syke",
+  "found": true,
+  "nation": "Spain",
+  "born": "2006-03-29",
+  "id": "Syke"
+ },
+ "visaac.": {
+  "title": "Visaac",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Pluvo": {
+  "title": "Pluvo",
+  "found": true,
+  "nation": "England",
+  "born": "2005-09-05",
+  "id": "Pluvo"
+ },
+ "Mikeboy": {
+  "title": "Mikeboy",
+  "found": true,
+  "nation": "Netherlands",
+  "born": "2002-05-05",
+  "id": "Mikeboy"
+ },
+ "Smashy": {
+  "title": "Smashy",
+  "found": true,
+  "nation": "England",
+  "born": "2006-02-09",
+  "id": "smashy"
+ },
+ "Nolta": {
+  "title": "Nolta",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Braax": {
+  "title": "Braax",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Shuuya.": {
+  "title": "Shuuya",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "9hunta": {
+  "title": "Hunta",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Salatos": {
+  "title": "Salatos",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "felly": {
+  "title": "Felly",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "ensee.": {
+  "title": "Ensee",
+  "found": true,
+  "nation": "Scotland",
+  "born": "2005-03-15",
+  "id": "ensee."
+ },
+ "R6Fighter": {
+  "title": "R6Fighter",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "nac10": {
+  "title": "Nac10",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "pukis": {
+  "title": "Pukis",
+  "found": true,
+  "nation": "Ireland",
+  "born": "2009-12-27",
+  "id": "pukis"
+ },
+ "shila": {
+  "title": "Shila",
+  "found": true,
+  "nation": "Germany",
+  "born": "2004-02-13",
+  "id": "shila"
+ },
+ "prysm": {
+  "title": "Prysm",
+  "found": true,
+  "nation": "England",
+  "born": "2009-06-02",
+  "id": "prysm!"
+ },
+ "Ever": {
+  "title": "Ever",
+  "found": true,
+  "nation": "France",
+  "born": "2006-06-19",
+  "id": "Ever"
+ },
+ "Shark.": {
+  "title": "Shark",
+  "found": true,
+  "nation": "Ireland",
+  "born": "2007-06-09",
+  "id": "Shark."
+ },
+ "Jonix!": {
+  "title": "Jonix",
+  "found": true,
+  "nation": "Spain",
+  "born": "2008-04-17",
+  "id": "Jonix!"
+ },
+ "Viktor": {
+  "title": "Viktor",
+  "found": true,
+  "nation": "Sweden",
+  "born": "2004-02-20",
+  "id": "Viktor"
+ },
+ "Zamberg": {
+  "title": "Zamberg",
+  "found": true,
+  "nation": "Sweden",
+  "born": "2003-05-21",
+  "id": "Zamberg"
+ },
+ "flexx": {
+  "title": "Flexx",
+  "found": true,
+  "nation": "Sweden",
+  "born": "2005-07-04",
+  "id": "flexx"
+ },
+ "saphiix": {
+  "title": "SaphiiX",
+  "found": true,
+  "nation": "Denmark",
+  "born": "2003-05-12",
+  "id": "saphiix"
+ },
+ "boa": {
+  "title": "Boa",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "zeca": {
+  "title": "Zeca",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Flo": {
+  "title": "Flo",
+  "found": true,
+  "nation": "Switzerland",
+  "born": "2005-05-03",
+  "id": "Flo"
+ },
+ "Mihno": {
+  "title": "Mihno",
+  "found": true,
+  "nation": "Switzerland",
+  "born": "2003-10-23",
+  "id": "Mihno"
+ },
+ "dixa": {
+  "title": "Dixa",
+  "found": true,
+  "nation": "Switzerland",
+  "born": "2007-09-12",
+  "id": "dixa"
+ },
+ "agaliank": {
+  "title": "Agaliank",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "MinLoX": {
+  "title": "MinLoX",
+  "found": true,
+  "nation": "France",
+  "born": "2006-12-28",
+  "id": "MinLoX"
+ },
+ "7gaheris": {
+  "title": "Seboraah",
+  "found": true,
+  "nation": "France",
+  "born": "2006-11-24",
+  "id": "Seboraah"
+ },
+ "krow": {
+  "title": "Krowawui",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Marc :(": {
+  "title": "Marc",
+  "found": true,
+  "nation": "Netherlands",
+  "born": "2003-07-27",
+  "id": "Marc :("
+ },
+ "Mimical": {
+  "title": "Mimical",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Dmy": {
+  "title": "Dmy",
+  "found": true,
+  "nation": "Germany",
+  "born": "2004-04-05",
+  "id": "Dmy"
+ },
+ "DantroneX": {
+  "title": "DantroneX",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "rizun": {
+  "title": "Rizun",
+  "found": true,
+  "nation": "England",
+  "born": "2004-07-09",
+  "id": "rizun"
+ },
+ "ghosttinhoo.": {
+  "title": "Ghosttinhoo",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "qatixx": {
+  "title": "Qatixx",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "dj.": {
+  "title": "Dj",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "mago": {
+  "title": "Mago",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "spelva": {
+  "title": "Spelva",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "xEpt.": {
+  "title": "XEpt",
+  "found": true,
+  "nation": "Bulgaria",
+  "born": "2006-06-01",
+  "id": "xEpt."
+ },
+ "Haven": {
+  "title": "Haven",
+  "found": true,
+  "nation": "Norway",
+  "born": "2003-08-24",
+  "id": "Haven"
+ },
+ "Daiki": {
+  "title": "Daiki",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Yukzula": {
+  "title": "Yukzula",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "verify": {
+  "title": "Verify",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Azza": {
+  "title": "Azza",
+  "found": true,
+  "nation": "Poland",
+  "born": "2002-09-23",
+  "id": "Azza"
+ },
+ "Krabby!": {
+  "title": "Krabby",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "jrdi.": {
+  "title": "Jrdi.",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "alexg_dka": {
+  "title": "Alexg dka",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "RyZe-LK": {
+  "title": "RyZe-LK",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Mat.": {
+  "title": "Mat",
+  "found": true,
+  "nation": "France",
+  "born": "2005-05-15",
+  "id": "Mat."
+ },
+ "vadyy": {
+  "title": "Vadyy",
+  "found": true,
+  "nation": "Portugal",
+  "born": "2008-06-20",
+  "id": "vadyy"
+ },
+ "osaft": {
+  "title": "Osaft",
+  "found": true,
+  "nation": "Germany",
+  "born": "2009-09-10",
+  "id": "osaft"
+ },
+ "saizen": {
+  "title": "Saizen",
+  "found": true,
+  "nation": "France",
+  "born": "2005-10-21",
+  "id": "saizen"
+ },
+ "AnoriQ": {
+  "title": "AnoriQ",
+  "found": true,
+  "nation": "Morocco",
+  "born": "2005-07-18",
+  "id": "AnoriQ"
+ },
+ "MayKo": {
+  "title": "MayKo",
+  "found": true,
+  "nation": "France",
+  "born": "2007-06-03",
+  "id": "MayKo"
+ },
+ "drku": {
+  "title": "Drku",
+  "found": true,
+  "nation": "England",
+  "born": "2006-11-03",
+  "id": "drku"
+ },
+ "ringa": {
+  "title": "Ringa",
+  "found": true,
+  "nation": "Albania",
+  "born": "2005-09-25",
+  "id": "ringa"
+ },
+ "Rizex": {
+  "title": "Rizex",
+  "found": true,
+  "nation": "Germany",
+  "born": "2002-04-30",
+  "id": "Rizex"
+ },
+ "mala7": {
+  "title": "Mala7",
+  "found": true,
+  "nation": "Italy",
+  "born": "2006-02-15",
+  "id": "mala7"
+ },
+ "dead": {
+  "title": "Dead-Monster",
+  "found": true,
+  "nation": "Italy",
+  "born": "2001-04-08",
+  "id": "Dead-Monster"
+ },
+ "CharlieB": {
+  "title": "CharlieB",
+  "found": true,
+  "nation": "England",
+  "born": "2004-10-12",
+  "id": "CharlieB"
+ },
+ "creamyy": {
+  "title": "Creamyy",
+  "found": true,
+  "nation": "Denmark",
+  "born": "2003-02-22",
+  "id": "creamyy"
+ },
+ "Rexo": {
+  "title": "Rexo",
+  "found": true,
+  "nation": "Denmark",
+  "born": "2003-02-01",
+  "id": "Rexo"
+ },
+ "Keks": {
+  "title": "Keks",
+  "found": true,
+  "nation": "Germany",
+  "born": "2001-11-28",
+  "id": "Keks"
+ },
+ "syracks": {
+  "title": "Syracks",
+  "found": true,
+  "nation": "Czech Republic",
+  "born": "2004-11-26",
+  "id": "syracks"
+ },
+ "Aero": {
+  "title": "Aero",
+  "found": true,
+  "nation": "Poland",
+  "born": "2005-07-14",
+  "id": "Aero"
+ },
+ "sedou": {
+  "title": "Sedou",
+  "found": true,
+  "nation": "Czech Republic",
+  "born": "2008-07-04",
+  "id": "sedou"
+ },
+ "fakeswaysy": {
+  "title": "Fakeswaysy",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "esostek": {
+  "title": "Esostek",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "k3laer": {
+  "title": "K3laer",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Taro": {
+  "title": "Taro",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Tabernat": {
+  "title": "Tabernat",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Soap!": {
+  "title": "Soapnied",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Teggy": {
+  "title": "Acqua",
+  "found": true,
+  "nation": "France",
+  "born": "2003-08-21",
+  "id": "acqua"
+ },
+ "nesyy": {
+  "title": "Nesyy",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "NeyasRLL": {
+  "title": "Neyas",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "ommh.": {
+  "title": "Ommh",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Atypeak": {
+  "title": "Atypeak",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "cosmos": {
+  "title": "Cosmos",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "ToXx": {
+  "title": "ToXx",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Aiipa": {
+  "title": "Aiipa",
+  "found": true,
+  "nation": "Czech Republic",
+  "born": "2003-08-15",
+  "id": "Aiipa"
+ },
+ "Didi": {
+  "title": "Didi (Czech Player)",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "WTE_Greg": {
+  "title": "WTE Greg",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "kadely": {
+  "title": "Kadely",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Kawa": {
+  "title": "Kawa",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Dexxiak": {
+  "title": "Dexxiak",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "SamyM": {
+  "title": "SamyM",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "mxr": {
+  "title": "Mxr",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "mayL": {
+  "title": "MayL",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Axel54!": {
+  "title": "Axel54",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "nokzz": {
+  "title": "Nokzz",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Hipcio_": {
+  "title": "Hipcio",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "michos": {
+  "title": "Michos",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "muss": {
+  "title": "Muss",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Sayyzz.": {
+  "title": "Sayyzz",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Novaa": {
+  "title": "Novaa",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "zFleXaSs-": {
+  "title": "ZFleXaSs-",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Stupzy": {
+  "title": "Stupzy",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "imatthew55": {
+  "title": "Imatthew55",
+  "found": true,
+  "nation": "Netherlands",
+  "born": "2004-12-01",
+  "id": "imatthew55"
+ },
+ "Snowyyy": {
+  "title": "Snowyyy",
+  "found": true,
+  "nation": "Germany",
+  "born": "2003-05-04",
+  "id": "Snowyyy"
+ },
+ "Kesha": {
+  "title": "Kesha",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Markuisio": {
+  "title": "Markuisio",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Deathski": {
+  "title": "Deathski",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Paon.": {
+  "title": "Paon",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "HyZia": {
+  "title": "HyZia",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Asaqqprime": {
+  "title": "Asaqq",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Bazsikazacsi": {
+  "title": "Bazsikazacsi",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Pyr0MarK.": {
+  "title": "Pyr0MarK",
+  "found": true,
+  "nation": "Hungary",
+  "born": "",
+  "id": "Pyr0MarK."
+ },
+ "Merverlin": {
+  "title": "Merverlin",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Naish": {
+  "title": "Naish",
+  "found": true,
+  "nation": "England",
+  "born": "2006-09-24",
+  "id": "Naish"
+ },
+ "Lasa": {
+  "title": "Lasa",
+  "found": true,
+  "nation": "Spain",
+  "born": "2004-01-12",
+  "id": "Lasa"
+ },
+ "Revezy": {
+  "title": "Revezy",
+  "found": true,
+  "nation": "England",
+  "born": "2005-03-30",
+  "id": "Revezy"
+ },
+ "konya": {
+  "title": "Emre",
+  "found": true,
+  "nation": "Germany",
+  "born": "2004-05-26",
+  "id": "emre"
+ },
+ "alluvis": {
+  "title": "Alluvis",
+  "found": true,
+  "nation": "Austria",
+  "born": "2001-07-07",
+  "id": "alluvis"
+ },
+ "Bryza": {
+  "title": "Bryza",
+  "found": true,
+  "nation": "Germany",
+  "born": "2004-12-22",
+  "id": "Bryza"
+ },
+ "msn": {
+  "title": "Msn",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Jhaazi": {
+  "title": "Logic",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "talon": {
+  "title": "Talon",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "christiann.": {
+  "title": "Christiann.",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Encore": {
+  "title": "Encore",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ },
+ "Tiitaann.": {
+  "title": "Tiitaann",
+  "found": false,
+  "nation": "",
+  "born": "",
+  "id": ""
+ }
+}

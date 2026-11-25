@@ -1,0 +1,4152 @@
+{
+ "version": 1,
+ "_readme": "Tier A expansion teams (16 per region, ranked best-first by mean baseStrength). Same schema as btier-teams.json; the loader derives tier A / region from the region id. They join the 16 game-data teams of their region.",
+ "regions": [
+  {
+   "id": "eu",
+   "teams": [
+    {
+     "name": "Ventucorp Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "sml.",
+       "baseStrength": 68,
+       "nation": "Spain",
+       "born": "2004-05-02",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Syke",
+       "baseStrength": 68,
+       "nation": "Spain",
+       "born": "2006-03-29",
+       "age": 20
+      },
+      {
+       "name": "visaac.",
+       "baseStrength": 67,
+       "nation": "Spain",
+       "born": "2003-08-07",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "L'Antique Esport",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Nolta",
+       "baseStrength": 68,
+       "nation": "France",
+       "born": "2004-02-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Braax",
+       "baseStrength": 67,
+       "nation": "France",
+       "born": "2004-10-15",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Shuuya.",
+       "baseStrength": 67,
+       "nation": "France",
+       "born": "2006-07-04",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Brave Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "ensee.",
+       "baseStrength": 66,
+       "nation": "Scotland",
+       "born": "2005-03-15",
+       "age": 21
+      },
+      {
+       "name": "R6Fighter",
+       "baseStrength": 67,
+       "nation": "Switzerland",
+       "born": "2007-12-23",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "nac10",
+       "baseStrength": 68,
+       "nation": "France",
+       "born": "2005-02-05",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "FLY5 esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "9hunta",
+       "baseStrength": 67,
+       "nation": "Czech Republic",
+       "born": "2005-10-09",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Salatos",
+       "baseStrength": 66,
+       "nation": "Czech Republic",
+       "born": "2006-02-19",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "felly",
+       "baseStrength": 67,
+       "nation": "Czech Republic",
+       "born": "2005-03-28",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Seleção",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Ever",
+       "baseStrength": 66,
+       "nation": "France",
+       "born": "2006-06-19",
+       "age": 20
+      },
+      {
+       "name": "Shark.",
+       "baseStrength": 66,
+       "nation": "Ireland",
+       "born": "2007-06-09",
+       "age": 19
+      },
+      {
+       "name": "Jonix!",
+       "baseStrength": 66,
+       "nation": "Spain",
+       "born": "2008-04-17",
+       "age": 18
+      }
+     ]
+    },
+    {
+     "name": "OGC FC",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Viktor",
+       "baseStrength": 67,
+       "nation": "Sweden",
+       "born": "2004-02-20",
+       "age": 22
+      },
+      {
+       "name": "Zamberg",
+       "baseStrength": 66,
+       "nation": "Sweden",
+       "born": "2003-05-21",
+       "age": 23
+      },
+      {
+       "name": "flexx",
+       "baseStrength": 65,
+       "nation": "Sweden",
+       "born": "2005-07-04",
+       "age": 21
+      }
+     ]
+    },
+    {
+     "name": "Wooka Esport",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Flo",
+       "baseStrength": 66,
+       "nation": "Switzerland",
+       "born": "2005-05-03",
+       "age": 21
+      },
+      {
+       "name": "Mihno",
+       "baseStrength": 65,
+       "nation": "Switzerland",
+       "born": "2003-10-23",
+       "age": 23
+      },
+      {
+       "name": "dixa",
+       "baseStrength": 64,
+       "nation": "Switzerland",
+       "born": "2007-09-12",
+       "age": 19
+      }
+     ]
+    },
+    {
+     "name": "Guns N' Roses",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Dmy",
+       "baseStrength": 65,
+       "nation": "Germany",
+       "born": "2004-04-05",
+       "age": 22
+      },
+      {
+       "name": "DantroneX",
+       "baseStrength": 65,
+       "nation": "Spain",
+       "born": "2001-02-13",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "rizun",
+       "baseStrength": 65,
+       "nation": "England",
+       "born": "2004-07-09",
+       "age": 22
+      }
+     ]
+    },
+    {
+     "name": "Astellia eSports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "saphiix",
+       "baseStrength": 64,
+       "nation": "Denmark",
+       "born": "2003-05-12",
+       "age": 23
+      },
+      {
+       "name": "boa",
+       "baseStrength": 65,
+       "nation": "England",
+       "born": "2004-06-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "zeca",
+       "baseStrength": 64,
+       "nation": "Portugal",
+       "born": "2007-05-12",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "sky E-sport",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "agaliank",
+       "baseStrength": 65,
+       "nation": "France",
+       "born": "2006-04-13",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "MinLoX",
+       "baseStrength": 64,
+       "nation": "France",
+       "born": "2006-12-28",
+       "age": 19
+      },
+      {
+       "name": "7gaheris",
+       "baseStrength": 64,
+       "nation": "France",
+       "born": "2006-11-24",
+       "age": 19
+      }
+     ]
+    },
+    {
+     "name": "IceHorde",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "krow",
+       "baseStrength": 65,
+       "nation": "Kazakhstan",
+       "born": "2005-09-12",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Marc :(",
+       "baseStrength": 64,
+       "nation": "Netherlands",
+       "born": "2003-07-27",
+       "age": 23
+      },
+      {
+       "name": "Mimical",
+       "baseStrength": 64,
+       "nation": "Netherlands",
+       "born": "2001-02-03",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "DAWN",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "mago",
+       "baseStrength": 63,
+       "nation": "Portugal",
+       "born": "2008-03-02",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "spelva",
+       "baseStrength": 64,
+       "nation": "Germany",
+       "born": "2006-06-13",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "xEpt.",
+       "baseStrength": 64,
+       "nation": "Bulgaria",
+       "born": "2006-06-01",
+       "age": 20
+      }
+     ]
+    },
+    {
+     "name": "ZURA E-SPORTS",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "ghosttinhoo.",
+       "baseStrength": 64,
+       "nation": "France",
+       "born": "2001-10-07",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "qatixx",
+       "baseStrength": 63,
+       "nation": "Germany",
+       "born": "2006-07-16",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "dj.",
+       "baseStrength": 63,
+       "nation": "Germany",
+       "born": "2004-04-27",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Godalions",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Haven",
+       "baseStrength": 63,
+       "nation": "Norway",
+       "born": "2003-08-24",
+       "age": 23
+      },
+      {
+       "name": "Daiki",
+       "baseStrength": 62,
+       "nation": "Netherlands",
+       "born": "2008-03-22",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Yukzula",
+       "baseStrength": 63,
+       "nation": "Northern Ireland",
+       "born": "2006-08-23",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team Octys",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "jrdi.",
+       "baseStrength": 62,
+       "nation": "Spain",
+       "born": "2008-11-12",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "alexg_dka",
+       "baseStrength": 62,
+       "nation": "Spain",
+       "born": "2006-06-07",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "RyZe-LK",
+       "baseStrength": 62,
+       "nation": "France",
+       "born": "2004-04-01",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "DSQ Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (EU Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "verify",
+       "baseStrength": 61,
+       "nation": "Turkey",
+       "born": "2001-10-23",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Azza",
+       "baseStrength": 63,
+       "nation": "Poland",
+       "born": "2002-09-23",
+       "age": 24
+      },
+      {
+       "name": "Krabby!",
+       "baseStrength": 61,
+       "nation": "Poland",
+       "born": "2003-11-18",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "na",
+   "teams": [
+    {
+     "name": "Lil Step Bros",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "guh",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2005-03-02",
+       "age": 21
+      },
+      {
+       "name": "tcorrell",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2001-02-08",
+       "age": 25
+      },
+      {
+       "name": "AlphaKep",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "1998-02-09",
+       "age": 28
+      }
+     ]
+    },
+    {
+     "name": "KrakenSeas",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Zineel",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2005-03-01",
+       "age": 21
+      },
+      {
+       "name": "Taroco",
+       "baseStrength": 67,
+       "nation": "Canada",
+       "born": "2003-02-22",
+       "age": 23
+      },
+      {
+       "name": "Juice.",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2008-10-27",
+       "age": 18
+      }
+     ]
+    },
+    {
+     "name": "chuzz",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "bryant",
+       "baseStrength": 67,
+       "nation": "United States",
+       "born": "2004-05-18",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Milio",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2004-01-08",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Kiro",
+       "baseStrength": 67,
+       "nation": "Puerto Rico",
+       "born": "2005-10-11",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Chewy",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "samba",
+       "baseStrength": 67,
+       "nation": "United States",
+       "born": "2001-04-06",
+       "age": 25
+      },
+      {
+       "name": "Adverse",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2005-03-18",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "lubey",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2002-05-12",
+       "age": 24
+      }
+     ]
+    },
+    {
+     "name": "Oklahoma Smoke Show",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "CrimsonChin",
+       "baseStrength": 67,
+       "nation": "United States",
+       "born": "2001-10-01",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Cidafects",
+       "baseStrength": 65,
+       "nation": "United States",
+       "born": "2004-04-17",
+       "age": 22
+      },
+      {
+       "name": "tėmpėr.",
+       "baseStrength": 67,
+       "nation": "United States",
+       "born": "2006-02-17",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "NTX Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "DappDapp",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2008-03-12",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "fade.",
+       "baseStrength": 65,
+       "nation": "Puerto Rico",
+       "born": "2010-05-05",
+       "age": 16
+      },
+      {
+       "name": "Jaxx",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2003-04-21",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Scuba Steve",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "incogReedo",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2003-03-12",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Cha",
+       "baseStrength": 66,
+       "nation": "United States",
+       "born": "2005-10-13",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "AuntJemima",
+       "baseStrength": 66,
+       "nation": "Puerto Rico",
+       "born": "1997-01-21",
+       "age": 29
+      }
+     ]
+    },
+    {
+     "name": "rascabichos",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "diviiza",
+       "baseStrength": 64,
+       "nation": "Mexico",
+       "born": "2002-09-12",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Brs alee.",
+       "baseStrength": 65,
+       "nation": "Mexico",
+       "born": "2003-07-18",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "paco.",
+       "baseStrength": 65,
+       "nation": "Mexico",
+       "born": "1998-11-12",
+       "age": 28
+      }
+     ]
+    },
+    {
+     "name": "Whos gonna carry the boats",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "widow",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2001-10-11",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Paden",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2007-04-13",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "vision",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2006-02-21",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Vanguard",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "furane",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "1999-06-04",
+       "age": 27
+      },
+      {
+       "name": "mist",
+       "baseStrength": 65,
+       "nation": "United States",
+       "born": "2003-08-22",
+       "age": 23
+      },
+      {
+       "name": "Allushin",
+       "baseStrength": 63,
+       "nation": "Canada",
+       "born": "1999-09-03",
+       "age": 27
+      }
+     ]
+    },
+    {
+     "name": "Bread Brigade",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "DuckieeG",
+       "baseStrength": 63,
+       "nation": "United States",
+       "born": "2005-06-23",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Trent",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2003-01-04",
+       "age": 23
+      },
+      {
+       "name": "Ennzo",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2004-09-16",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Arctic Ace Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "hazy.",
+       "baseStrength": 64,
+       "nation": "Canada",
+       "born": "2007-12-01",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "HudEv",
+       "baseStrength": 62,
+       "nation": "Canada",
+       "born": "2006-10-19",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Envy-.",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2007-09-04",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Goober Dash",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "nekarri",
+       "baseStrength": 62,
+       "nation": "United States",
+       "born": "2004-01-24",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "big cheesie",
+       "baseStrength": 63,
+       "nation": "United States",
+       "born": "2005-03-22",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "phantom",
+       "baseStrength": 64,
+       "nation": "United States",
+       "born": "2004-06-25",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "ET",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Tiz",
+       "baseStrength": 62,
+       "nation": "Puerto Rico",
+       "born": "2006-12-14",
+       "age": 19
+      },
+      {
+       "name": "WondaMike",
+       "baseStrength": 63,
+       "nation": "United States",
+       "born": "2004-05-25",
+       "age": 22
+      },
+      {
+       "name": "mercii",
+       "baseStrength": 64,
+       "nation": "Puerto Rico",
+       "born": "2007-03-17",
+       "age": 19
+      }
+     ]
+    },
+    {
+     "name": "Dead End",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "loakci",
+       "baseStrength": 63,
+       "nation": "Canada",
+       "born": "2007-10-01",
+       "age": 19
+      },
+      {
+       "name": "Jay",
+       "baseStrength": 63,
+       "nation": "Canada",
+       "born": "2002-11-08",
+       "age": 24
+      },
+      {
+       "name": "Neheitios",
+       "baseStrength": 62,
+       "nation": "United States",
+       "born": "2004-06-10",
+       "age": 22
+      }
+     ]
+    },
+    {
+     "name": "chimp",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (NA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Eris",
+       "baseStrength": 63,
+       "nation": "United States",
+       "born": "2003-03-18",
+       "age": 23
+      },
+      {
+       "name": "Impoh",
+       "baseStrength": 61,
+       "nation": "United States",
+       "born": "2004-12-22",
+       "age": 21
+      },
+      {
+       "name": "Sauceyy",
+       "baseStrength": 61,
+       "nation": "United States",
+       "born": "2006-11-10",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sam",
+   "teams": [
+    {
+     "name": "Palito Bombon Helado",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Tripode",
+       "baseStrength": 67,
+       "nation": "Uruguay",
+       "born": "2005-07-04",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "klawzt",
+       "baseStrength": 68,
+       "nation": "Argentina",
+       "born": "2006-11-06",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "kurbus",
+       "baseStrength": 68,
+       "nation": "Uruguay",
+       "born": "2004-10-09",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "os peixonautas",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Kauazinxdd",
+       "baseStrength": 67,
+       "nation": "Brazil",
+       "born": "2008-03-22",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Firewall154",
+       "baseStrength": 67,
+       "nation": "Brazil",
+       "born": "2001-02-16",
+       "age": 25
+      },
+      {
+       "name": "Kryy",
+       "baseStrength": 67,
+       "nation": "Portugal",
+       "born": "2003-11-02",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "The Beiços",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "zeeph",
+       "baseStrength": 67,
+       "nation": "Brazil",
+       "born": "2008-08-25",
+       "age": 18
+      },
+      {
+       "name": "brittrl",
+       "baseStrength": 68,
+       "nation": "Brazil",
+       "born": "2001-10-03",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Magorl_",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2006-08-01",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team Foolish",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Shyy",
+       "baseStrength": 67,
+       "nation": "Brazil",
+       "born": "2005-11-06",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "yudi",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2006-07-06",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Zago",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2007-01-12",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Kyouki",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Ashes.",
+       "baseStrength": 65,
+       "nation": "Bolivia",
+       "born": "2008-03-26",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sanfe",
+       "baseStrength": 67,
+       "nation": "Argentina",
+       "born": "2002-02-25",
+       "age": 24
+      },
+      {
+       "name": "TRK GELP",
+       "baseStrength": 67,
+       "nation": "Argentina",
+       "born": "2004-10-09",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "pneu malandro esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "frooknh",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2001-10-09",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Aorus",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2005-03-10",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "SFireh",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2004-12-17",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Trust The Process",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "TxcRR^^",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2004-10-09",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "bioniczy",
+       "baseStrength": 66,
+       "nation": "Brazil",
+       "born": "2006-10-23",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Klassikzf",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2004-01-24",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "dangers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "ghznx.",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2005-06-07",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "prequice",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2008-07-12",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Restau Rikow.",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2002-01-28",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "galizé",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Polarrl12",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2005-02-07",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "HaySit",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2008-07-10",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Araujo",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2003-11-18",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Palestra",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "yStoik",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2006-08-19",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Choyuxz",
+       "baseStrength": 65,
+       "nation": "Brazil",
+       "born": "2004-05-10",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "kvn",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2006-08-25",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Old School Ballers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "leogfxx",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2007-08-17",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "droopy",
+       "baseStrength": 65,
+       "nation": "Chile",
+       "born": "2004-02-13",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "meiki",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2004-10-19",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "timezin",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "granado",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2007-08-04",
+       "age": 19
+      },
+      {
+       "name": "pl",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2009-01-31",
+       "age": 17
+      },
+      {
+       "name": "dreankz",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2006-09-26",
+       "age": 20
+      }
+     ]
+    },
+    {
+     "name": "AuraFarm",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "thunderzinnn",
+       "baseStrength": 64,
+       "nation": "Chile",
+       "born": "2004-01-20",
+       "age": 22,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Tyzai47",
+       "baseStrength": 63,
+       "nation": "Chile",
+       "born": "2003-12-07",
+       "age": 22
+      },
+      {
+       "name": "Starwindss",
+       "baseStrength": 63,
+       "nation": "Chile",
+       "born": "2004-06-23",
+       "age": 22
+      }
+     ]
+    },
+    {
+     "name": "SSD",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "daavi",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2006-08-15",
+       "age": 20
+      },
+      {
+       "name": "Speedhack",
+       "baseStrength": 64,
+       "nation": "Brazil",
+       "born": "2008-11-18",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sivicao",
+       "baseStrength": 62,
+       "nation": "Brazil",
+       "born": "2009-12-30",
+       "age": 16
+      }
+     ]
+    },
+    {
+     "name": "owed",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Roblah",
+       "baseStrength": 63,
+       "nation": "Chile",
+       "born": "2001-02-01",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Super.",
+       "baseStrength": 63,
+       "nation": "Chile",
+       "born": "2006-11-02",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Deathxplotion",
+       "baseStrength": 62,
+       "nation": "Chile",
+       "born": "2001-08-31",
+       "age": 25
+      }
+     ]
+    },
+    {
+     "name": "Gani",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SAM Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "alpe",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2003-01-11",
+       "age": 23
+      },
+      {
+       "name": "igaaao",
+       "baseStrength": 61,
+       "nation": "Brazil",
+       "born": "2001-10-13",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "lxpeszn",
+       "baseStrength": 63,
+       "nation": "Brazil",
+       "born": "2006-06-23",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oce",
+   "teams": [
+    {
+     "name": "Diggers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Digs",
+       "baseStrength": 68,
+       "nation": "Australia",
+       "born": "2003-03-28",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "cam",
+       "baseStrength": 67,
+       "nation": "Australia",
+       "born": "2006-11-10",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Seba",
+       "baseStrength": 68,
+       "nation": "Australia",
+       "born": "2003-03-28",
+       "age": 23,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Surge Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Bazlito",
+       "baseStrength": 68,
+       "nation": "Australia",
+       "born": "2007-07-08",
+       "age": 19
+      },
+      {
+       "name": "Ben.",
+       "baseStrength": 67,
+       "nation": "Australia",
+       "born": "2003-08-05",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Lucifer",
+       "baseStrength": 67,
+       "nation": "Australia",
+       "born": "2008-12-15",
+       "age": 17
+      }
+     ]
+    },
+    {
+     "name": "Sea Monkeys",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Whale",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2003-11-06",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "PrpleDuck",
+       "baseStrength": 68,
+       "nation": "Australia",
+       "born": "2006-10-13",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Nytro xzt",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2004-10-25",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "kentucky fennec chicken",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Wobs Knaz",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2003-04-11",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Juicebox",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2007-12-25",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Wolf-SYN-_-",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2005-11-22",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Open Nets Optional",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "kingz",
+       "baseStrength": 67,
+       "nation": "Australia",
+       "born": "2001-06-11",
+       "age": 25,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Chicken Charma",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2004-04-19",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Hazzy",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2003-11-08",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "!PLAYGETEMIN",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Bougee",
+       "baseStrength": 67,
+       "nation": "New Zealand",
+       "born": "1997-02-15",
+       "age": 29
+      },
+      {
+       "name": "Paradise",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2007-04-11",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "cx9",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2005-02-21",
+       "age": 21
+      }
+     ]
+    },
+    {
+     "name": "giggle gang",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "evokeRL_",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2007-12-05",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "qwexbi",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2006-07-24",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Snxwy2",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2005-02-27",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team Zorn",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Jacwuan",
+       "baseStrength": 64,
+       "nation": "Australia",
+       "born": "2001-02-09",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "swty.",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2003-08-03",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Krispy_RL",
+       "baseStrength": 66,
+       "nation": "Australia",
+       "born": "2005-06-25",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Bin Babies",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Spcterrr",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2003-10-26",
+       "age": 23
+      },
+      {
+       "name": "Qaucker",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2001-10-11",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Ryzzxn",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2005-11-22",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "flip reset my life",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "UltraViolet",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2001-02-27",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Jordi",
+       "baseStrength": 64,
+       "nation": "Australia",
+       "born": "2005-01-18",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Mack",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2005-11-02",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "WGF",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "UltimateDuck",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2008-11-28",
+       "age": 17,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Kickzee",
+       "baseStrength": 65,
+       "nation": "Australia",
+       "born": "2002-09-12",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Legacy",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2001-10-11",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "asian synergy",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Anon",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2003-12-21",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "KT",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2004-09-22",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "swgy_",
+       "baseStrength": 64,
+       "nation": "Australia",
+       "born": "2005-11-14",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "bevvy downers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "mystreset",
+       "baseStrength": 62,
+       "nation": "Australia",
+       "born": "2008-07-18",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "fungoon",
+       "baseStrength": 62,
+       "nation": "Australia",
+       "born": "2006-11-26",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Luxio",
+       "baseStrength": 64,
+       "nation": "Australia",
+       "born": "2006-02-21",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "3 Little Monkeys",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Avocado",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2002-01-02",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Caledoman",
+       "baseStrength": 62,
+       "nation": "New Caledonia",
+       "born": "2006-02-03",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "iProlapzz-",
+       "baseStrength": 63,
+       "nation": "Australia",
+       "born": "2004-02-21",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Redacted Society",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "SmugCat",
+       "baseStrength": 62,
+       "nation": "Australia",
+       "born": "2004-01-10",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "sizz.",
+       "baseStrength": 62,
+       "nation": "Australia",
+       "born": "2005-07-28",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Astro.",
+       "baseStrength": 61,
+       "nation": "Australia",
+       "born": "2001-10-13",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Polar Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (OCE Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Vill",
+       "baseStrength": 61,
+       "nation": "Australia",
+       "born": "2003-04-05",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Vit.",
+       "baseStrength": 61,
+       "nation": "New Zealand",
+       "born": "2005-10-23",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Potato",
+       "baseStrength": 61,
+       "nation": "New Zealand",
+       "born": "2007-04-05",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mena",
+   "teams": [
+    {
+     "name": "Whispers in the Dark",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Blacklisted",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2006-04-21",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Xi",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2005-03-14",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "kdu9",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2006-07-14",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Ra8den",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Urahara. .",
+       "baseStrength": 67,
+       "nation": "Saudi Arabia",
+       "born": "2006-03-22",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "ztwff",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2004-12-09",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Dotixy",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2006-08-23",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "360",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "abu 3tb",
+       "baseStrength": 68,
+       "nation": "Saudi Arabia",
+       "born": "2005-09-24",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "7mani",
+       "baseStrength": 66,
+       "nation": "Kuwait",
+       "born": "2005-06-21",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "rin",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2005-03-22",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "NAR",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "N8awa",
+       "baseStrength": 67,
+       "nation": "Saudi Arabia",
+       "born": "2006-07-26",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "00Abdulaziz",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2005-06-17",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Look at me",
+       "baseStrength": 67,
+       "nation": "Saudi Arabia",
+       "born": "2007-08-05",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "We Don't Know KSA",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "z4",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2006-04-01",
+       "age": 20
+      },
+      {
+       "name": "Raed",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2006-07-24",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Nawaf.",
+       "baseStrength": 67,
+       "nation": "Saudi Arabia",
+       "born": "2004-06-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "ExciTinG1",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "doffy",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2003-11-26",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sythe",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2004-06-02",
+       "age": 22
+      },
+      {
+       "name": "Abdllhakim",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2006-04-01",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team Ignite",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Bustanji",
+       "baseStrength": 65,
+       "nation": "Jordan",
+       "born": "2001-11-06",
+       "age": 25
+      },
+      {
+       "name": "jello",
+       "baseStrength": 65,
+       "nation": "Jordan",
+       "born": "2010-04-17",
+       "age": 16
+      },
+      {
+       "name": "Mohammed",
+       "baseStrength": 65,
+       "nation": "Jordan",
+       "born": "2009-02-23",
+       "age": 17
+      }
+     ]
+    },
+    {
+     "name": "SouL Reaper",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "perfy",
+       "baseStrength": 66,
+       "nation": "Saudi Arabia",
+       "born": "2008-03-22",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "s7wt",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2007-08-13",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "kit9_rl",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2005-05-28",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team Venom",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Fahad",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2007-05-10",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Only_vTALAL",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2004-08-09",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "whm",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2002-05-06",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "iq 0",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "M7md503",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2005-10-23",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "mj0dq.",
+       "baseStrength": 65,
+       "nation": "Saudi Arabia",
+       "born": "2002-05-24",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "HeBi",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2006-03-06",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Nightwatch",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Cold79",
+       "baseStrength": 63,
+       "nation": "Algeria",
+       "born": "2005-10-05",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Spectre",
+       "baseStrength": 65,
+       "nation": "Algeria",
+       "born": "2004-10-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "ramzy",
+       "baseStrength": 63,
+       "nation": "Algeria",
+       "born": "2006-02-13",
+       "age": 20
+      }
+     ]
+    },
+    {
+     "name": "souls (Saudi Arabian Team)",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "KSA28",
+       "baseStrength": 62,
+       "nation": "Saudi Arabia",
+       "born": "2004-02-23",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "FroOtz",
+       "baseStrength": 62,
+       "nation": "Saudi Arabia",
+       "born": "2005-01-16",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sorrwin",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2003-07-24",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "costarica",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "oFx",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2002-01-08",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Avox",
+       "baseStrength": 62,
+       "nation": "Egypt",
+       "born": "2007-04-13",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "waf1",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2005-11-08",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "HaramBall",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "RwT",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2005-02-09",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Mentor.",
+       "baseStrength": 62,
+       "nation": "Saudi Arabia",
+       "born": "2006-08-27",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "aystrow",
+       "baseStrength": 62,
+       "nation": "France",
+       "born": "2004-04-11",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "infamous",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Abdulaziz",
+       "baseStrength": 62,
+       "nation": "Saudi Arabia",
+       "born": "2005-02-20",
+       "age": 21
+      },
+      {
+       "name": "Vipex",
+       "baseStrength": 62,
+       "nation": "Saudi Arabia",
+       "born": "2005-03-10",
+       "age": 21
+      },
+      {
+       "name": "abood.",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2006-02-01",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Unreal",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (MENA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Splash !",
+       "baseStrength": 61,
+       "nation": "Saudi Arabia",
+       "born": "2004-04-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "S3d.",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2004-02-17",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Madevls",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2005-02-03",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "apac",
+   "teams": [
+    {
+     "name": "Small Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Profile_RL",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2007-12-09",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Kuro",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2005-11-28",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Lich",
+       "baseStrength": 68,
+       "nation": "United States",
+       "born": "2006-02-07",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Spite",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Crunchy",
+       "baseStrength": 68,
+       "nation": "Egypt",
+       "born": "2004-07-31",
+       "age": 22
+      },
+      {
+       "name": "Claw-Z",
+       "baseStrength": 68,
+       "nation": "Singapore",
+       "born": "2003-07-15",
+       "age": 23
+      },
+      {
+       "name": "Fortymula7",
+       "baseStrength": 67,
+       "nation": "Singapore",
+       "born": "2003-06-10",
+       "age": 23
+      }
+     ]
+    },
+    {
+     "name": "GracesBlaze",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Hiroki",
+       "baseStrength": 68,
+       "nation": "Japan",
+       "born": "2008-11-24",
+       "age": 17
+      },
+      {
+       "name": "Medoūsa",
+       "baseStrength": 67,
+       "nation": "Japan",
+       "born": "2008-03-11",
+       "age": 18
+      },
+      {
+       "name": "yuuyu1173",
+       "baseStrength": 68,
+       "nation": "Japan",
+       "born": "2007-12-27",
+       "age": 18
+      }
+     ]
+    },
+    {
+     "name": "SNG",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Rub1n",
+       "baseStrength": 67,
+       "nation": "Russia",
+       "born": "2003-11-22",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "aloneeyy",
+       "baseStrength": 67,
+       "nation": "Russia",
+       "born": "2004-09-02",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Fflusss",
+       "baseStrength": 68,
+       "nation": "Germany",
+       "born": "2004-01-08",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "RHHS",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "hadiryas",
+       "baseStrength": 67,
+       "nation": "Singapore",
+       "born": "2006-10-06",
+       "age": 20
+      },
+      {
+       "name": "hxll0.",
+       "baseStrength": 67,
+       "nation": "Russia",
+       "born": "2004-07-15",
+       "age": 22
+      },
+      {
+       "name": "ripoopi",
+       "baseStrength": 65,
+       "nation": "Indonesia",
+       "born": "2004-06-03",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Pxress’s Habibtis",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Aziz",
+       "baseStrength": 66,
+       "nation": "South Africa",
+       "born": "2004-03-29",
+       "age": 22
+      },
+      {
+       "name": "Jushu",
+       "baseStrength": 65,
+       "nation": "United Arab Emirates",
+       "born": "2004-07-13",
+       "age": 22
+      },
+      {
+       "name": "Mscdi",
+       "baseStrength": 67,
+       "nation": "Singapore",
+       "born": "2002-12-17",
+       "age": 23
+      }
+     ]
+    },
+    {
+     "name": "YamiFinance",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "obu_c",
+       "baseStrength": 66,
+       "nation": "Japan",
+       "born": "2008-07-10",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "synxqc",
+       "baseStrength": 66,
+       "nation": "Japan",
+       "born": "2005-11-16",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "myla.",
+       "baseStrength": 66,
+       "nation": "Japan",
+       "born": "2005-10-05",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "STR",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Re612",
+       "baseStrength": 65,
+       "nation": "Japan",
+       "born": "2004-08-07",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Samekun_168",
+       "baseStrength": 65,
+       "nation": "Japan",
+       "born": "2005-10-13",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "tetra_256",
+       "baseStrength": 66,
+       "nation": "Japan",
+       "born": "2004-06-01",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Winter Soldiers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Ghassan.",
+       "baseStrength": 65,
+       "nation": "Tunisia",
+       "born": "2003-09-14",
+       "age": 23
+      },
+      {
+       "name": "Kxrma",
+       "baseStrength": 63,
+       "nation": "England",
+       "born": "2004-08-07",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "IslamDunk",
+       "baseStrength": 65,
+       "nation": "Egypt",
+       "born": "2003-03-02",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Random.",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Deidara",
+       "baseStrength": 64,
+       "nation": "Pakistan",
+       "born": "2006-06-13",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "nukezz",
+       "baseStrength": 64,
+       "nation": "Germany",
+       "born": "2007-05-02",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "itachi.",
+       "baseStrength": 64,
+       "nation": "Pakistan",
+       "born": "2001-10-05",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "TTG",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Raidersic",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2007-04-15",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Death",
+       "baseStrength": 64,
+       "nation": "Saudi Arabia",
+       "born": "2001-06-17",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sparky",
+       "baseStrength": 63,
+       "nation": "Saudi Arabia",
+       "born": "2007-08-13",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "OVO",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Hammer",
+       "baseStrength": 64,
+       "nation": "Japan",
+       "born": "2004-09-14",
+       "age": 22,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "MustardJ",
+       "baseStrength": 63,
+       "nation": "Belgium",
+       "born": "2006-07-04",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Matheo",
+       "baseStrength": 62,
+       "nation": "Indonesia",
+       "born": "2005-01-22",
+       "age": 21,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Ashva Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "jae.0511",
+       "baseStrength": 62,
+       "nation": "Singapore",
+       "born": "2003-03-08",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "paykeo.",
+       "baseStrength": 63,
+       "nation": "Malaysia",
+       "born": "2004-01-08",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "QQQQQQ",
+       "baseStrength": 64,
+       "nation": "Singapore",
+       "born": "2005-06-03",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Bombardiro Crocodilo",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Talok",
+       "baseStrength": 63,
+       "nation": "Scotland",
+       "born": "2003-11-08",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "SirCoffee",
+       "baseStrength": 64,
+       "nation": "England",
+       "born": "2004-04-09",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "JisooRL",
+       "baseStrength": 62,
+       "nation": "England",
+       "born": "2001-02-15",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Team SET",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "revk",
+       "baseStrength": 61,
+       "nation": "Pakistan",
+       "born": "2007-04-11",
+       "age": 19,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "spinachos",
+       "baseStrength": 62,
+       "nation": "Maldives",
+       "born": "2001-10-07",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Thasmeen",
+       "baseStrength": 61,
+       "nation": "Maldives",
+       "born": "2008-07-22",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Killer Whales",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (APAC Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "IamHaru.",
+       "baseStrength": 61,
+       "nation": "Japan",
+       "born": "2004-01-18",
+       "age": 22,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Assault",
+       "baseStrength": 61,
+       "nation": "Japan",
+       "born": "2001-06-15",
+       "age": 25
+      },
+      {
+       "name": "SupRa",
+       "baseStrength": 61,
+       "nation": "Japan",
+       "born": "2008-07-22",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ssa",
+   "teams": [
+    {
+     "name": "Cristobal Colon",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "PinGu",
+       "baseStrength": 68,
+       "nation": "Spain",
+       "born": "2004-03-29",
+       "age": 22
+      },
+      {
+       "name": "zentox",
+       "baseStrength": 68,
+       "nation": "Réunion",
+       "born": "2002-05-10",
+       "age": 24,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Dreazy",
+       "baseStrength": 68,
+       "nation": "Spain",
+       "born": "2003-08-21",
+       "age": 23,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Akimbo Esports",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "ASN_RuBiiX",
+       "baseStrength": 67,
+       "nation": "Spain",
+       "born": "2003-01-09",
+       "age": 23
+      },
+      {
+       "name": "5bs",
+       "baseStrength": 67,
+       "nation": "South Africa",
+       "born": "2004-11-12",
+       "age": 22
+      },
+      {
+       "name": "dylan",
+       "baseStrength": 67,
+       "nation": "South Africa",
+       "born": "2008-02-06",
+       "age": 18
+      }
+     ]
+    },
+    {
+     "name": "crazy time",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "evo",
+       "baseStrength": 67,
+       "nation": "England",
+       "born": "2007-05-22",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "sweezy",
+       "baseStrength": 66,
+       "nation": "England",
+       "born": "2001-02-05",
+       "age": 25,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "voidyy",
+       "baseStrength": 66,
+       "nation": "England",
+       "born": "2008-11-14",
+       "age": 18,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Mzansi Magicians",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Dre.",
+       "baseStrength": 66,
+       "nation": "South Africa",
+       "born": "2006-12-23",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Modezy_28",
+       "baseStrength": 67,
+       "nation": "South Africa",
+       "born": "2006-08-13",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Luna.",
+       "baseStrength": 66,
+       "nation": "South Africa",
+       "born": "2006-11-04",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "123",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Deto",
+       "baseStrength": 66,
+       "nation": "Netherlands",
+       "born": "2005-01-22",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "renzo",
+       "baseStrength": 66,
+       "nation": "Netherlands",
+       "born": "2005-05-16",
+       "age": 21
+      },
+      {
+       "name": "Gamble",
+       "baseStrength": 67,
+       "nation": "Netherlands",
+       "born": "2005-09-02",
+       "age": 21
+      }
+     ]
+    },
+    {
+     "name": "T2G esport",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "TyKop.",
+       "baseStrength": 67,
+       "nation": "Réunion",
+       "born": "2004-08-07",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Sullyxnz",
+       "baseStrength": 65,
+       "nation": "France",
+       "born": "2009-10-11",
+       "age": 17
+      },
+      {
+       "name": "Yabµ",
+       "baseStrength": 66,
+       "nation": "Réunion",
+       "born": "2003-08-03",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "INSANITY",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "arafar",
+       "baseStrength": 66,
+       "nation": "Portugal",
+       "born": "2002-10-23",
+       "age": 24
+      },
+      {
+       "name": "zalo",
+       "baseStrength": 65,
+       "nation": "Portugal",
+       "born": "2004-06-20",
+       "age": 22
+      },
+      {
+       "name": "neiko",
+       "baseStrength": 65,
+       "nation": "Portugal",
+       "born": "2007-08-05",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Ball Eater",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Tjester",
+       "baseStrength": 65,
+       "nation": "France",
+       "born": "2005-04-13",
+       "age": 21
+      },
+      {
+       "name": "Mira.",
+       "baseStrength": 66,
+       "nation": "Spain",
+       "born": "2002-12-03",
+       "age": 23
+      },
+      {
+       "name": "Qtipz",
+       "baseStrength": 64,
+       "nation": "Norway",
+       "born": "2003-03-08",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Brutal loggers",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Fatal",
+       "baseStrength": 64,
+       "nation": "South Africa",
+       "born": "2004-04-01",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Riscay",
+       "baseStrength": 64,
+       "nation": "South Africa",
+       "born": "2004-05-16",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Happeak.",
+       "baseStrength": 65,
+       "nation": "South Africa",
+       "born": "2006-06-21",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "SZS",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Zan",
+       "baseStrength": 64,
+       "nation": "South Africa",
+       "born": "2005-10-05",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "sxm",
+       "baseStrength": 63,
+       "nation": "Spain",
+       "born": "2005-03-18",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Scrafi",
+       "baseStrength": 65,
+       "nation": "South Africa",
+       "born": "2007-09-06",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "stanislas",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "zion_rl",
+       "baseStrength": 63,
+       "nation": "Réunion",
+       "born": "2006-04-11",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Clays!",
+       "baseStrength": 64,
+       "nation": "Réunion",
+       "born": "2006-04-09",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "smshyy",
+       "baseStrength": 63,
+       "nation": "France",
+       "born": "2006-04-13",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Galactica",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "AdriKilka",
+       "baseStrength": 63,
+       "nation": "Spain",
+       "born": "2006-08-11",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "iXeToXx",
+       "baseStrength": 63,
+       "nation": "Spain",
+       "born": "2003-11-18",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "MET-BREAK!",
+       "baseStrength": 64,
+       "nation": "Spain",
+       "born": "2005-11-28",
+       "age": 20,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "The Unemployed",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "mini",
+       "baseStrength": 63,
+       "nation": "England",
+       "born": "2004-05-16",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Flames",
+       "baseStrength": 62,
+       "nation": "South Africa",
+       "born": "2006-10-17",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "glisse",
+       "baseStrength": 63,
+       "nation": "South Africa",
+       "born": "2006-03-14",
+       "age": 20,
+       "generated": [
+        "nation",
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Fennec OF",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Nick",
+       "baseStrength": 62,
+       "nation": "Kenya",
+       "born": "2006-12-25",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "KOTAKABAS5",
+       "baseStrength": 63,
+       "nation": "Kenya",
+       "born": "2004-05-10",
+       "age": 22,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "supergamer6920",
+       "baseStrength": 62,
+       "nation": "Kenya",
+       "born": "2005-03-20",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Chrome Esports",
+     "needsVerification": true,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "Sęțh.",
+       "baseStrength": 62,
+       "nation": "South Africa",
+       "born": "2007-08-01",
+       "age": 19,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "Yaboikiran",
+       "baseStrength": 63,
+       "nation": "South Africa",
+       "born": "2005-06-21",
+       "age": 21,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      },
+      {
+       "name": "EvidentCable5603",
+       "baseStrength": 61,
+       "nation": "South Africa",
+       "born": "2003-07-06",
+       "age": 23,
+       "generated": [
+        "born"
+       ],
+       "needsVerification": true
+      }
+     ]
+    },
+    {
+     "name": "Born AGAIN",
+     "needsVerification": false,
+     "source": "https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2026 (SSA Opens 1-6 participants)",
+     "players": [
+      {
+       "name": "trin",
+       "baseStrength": 62,
+       "nation": "England",
+       "born": "2006-08-09",
+       "age": 20
+      },
+      {
+       "name": "Nine",
+       "baseStrength": 62,
+       "nation": "Egypt",
+       "born": "1999-09-23",
+       "age": 27
+      },
+      {
+       "name": "AbuLba",
+       "baseStrength": 62,
+       "nation": "Egypt",
+       "born": "2004-06-16",
+       "age": 22
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="circle-clip"><circle cx="60" cy="60" r="56"/></clipPath>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#e7d4d6"/>
+  <rect x="0" y="72" width="120" height="50" fill="#e1a9b0" clip-path="url(#circle-clip)"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#3a0c12" stroke-width="2" opacity="0.35"/>
+  
+        <g transform="translate(24, 24) scale(3.0)" fill="none" stroke="#0cb4d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.32">
+          <path d="M7 11l5-5 5 5M7 17l5-5 5 5"/>
+        </g>
+        <text x="60" y="61" dy=".35em" text-anchor="middle"
+              font-family="'Segoe UI', Roboto, Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="1.5"
+              fill="#3a0c12" stroke="#FFFFFF" stroke-width="4" paint-order="stroke">
+          TSE
+        </text>
+</svg>

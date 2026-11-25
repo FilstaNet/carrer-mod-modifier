@@ -1,0 +1,20 @@
+'use strict';
+// Our own models follow beta.33's sim model: a stronger side wins more games and series; scrim/duel/odds paths run on it.
+const assert = require('assert');
+const path = require('path');
+const APP = path.join(__dirname, '..', '..', 'app_extracted');
+const ev = require(path.join(APP, 'engine', 'events.js'));
+const engine = require('../src/engine/btier-state').wrapEngine(require(path.join(APP, 'engine', 'league.js')), { events: ev });
+const real = require(path.join(APP, 'data', 'rlcs-2027.json'));
+const simcal = require('../src/engine/ux-simcal');
+const mkRand = (seed) => { let s = seed >>> 0; return () => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; }; };
+const st = engine.generateLeague({ teamName: 'Team Vitality', real, startDate: engine.careerStartFor(2027), calendar: 'rlcs', economy: 'real' }, mkRand(3));
+const top = st.teams.filter((t) => t.region === 'eu' && !t.nation).map((t) => ({ t, ids: engine.autoLineup(st, t) }));
+const strong = top.reduce((a, b) => (engine.teamStrength(st, a.ids) >= engine.teamStrength(st, b.ids) ? a : b));
+const weak = top.reduce((a, b) => (engine.teamStrength(st, a.ids) <= engine.teamStrength(st, b.ids) ? a : b));
+const pg = simcal.gameWin(engine, st, strong.ids, weak.ids), pr = simcal.gameWin(engine, st, weak.ids, strong.ids);
+assert(pg > 0.5 && pr < 0.5 && Math.abs(pg + pr - 1) < 1e-6, 'strong side favoured, chances add up: ' + pg + ' ' + pr);
+assert(simcal.seriesWin(pg, 7) > pg, 'a longer series favours the stronger side more');
+const rt = simcal.ratesFor(engine, st, strong.ids, weak.ids);
+assert(rt.home + rt.away > 3 && rt.home > rt.away, 'goal rates from the game model');
+console.log('beta33 simcal: OK', pg.toFixed(3));

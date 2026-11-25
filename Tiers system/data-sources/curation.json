@@ -1,0 +1,20 @@
+{
+  "_readme": "Manual curation per region. exclude: {teamName: reason}. Edit freely; re-run tools/select-region.js.",
+  "eu": {
+    "exclude": {
+      "Manchester City Esports": "alias of Tier A 'Man City Esports'",
+      "x": "placeholder-style team name, not an organisation",
+      "j'ai mi": "pickup-style team name, not a clear organisation",
+      "whatever.": "pickup-style team name, not a clear organisation",
+      "Tak bojuj ne": "pickup-style name; same roster as ABS Esports",
+      "Thumbs up": "pickup-style team name",
+      "3 kebab lovers": "pickup-style team name",
+      "Vietnamese vipers": "pickup-style team name",
+      "The Last Last Dance": "pickup-style team name",
+      "WWLC (Winners Win Losers Complain)": "joke-style name, unclear organisation",
+      "Pepepitos Canyons": "pickup-style team name",
+      "Chippy Chips": "pickup-style team name",
+      "GhostWhite": "unclear organisation"
+    }
+  }
+}

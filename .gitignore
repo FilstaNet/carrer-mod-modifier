@@ -1,0 +1,25 @@
+﻿# Dependencies / runtimes
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
+
+# Build outputs
+Tiers system/dist/
+Tiers system/build/mod.zip
+
+# Game files extracted/derived locally (large, not ours)
+app_extracted*/
+deobf/
+*.asar
