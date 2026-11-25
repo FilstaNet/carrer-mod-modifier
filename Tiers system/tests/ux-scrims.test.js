@@ -106,4 +106,15 @@ const bookOk = (st, o) => { for (const t of st.teams.filter((x) => x.region === 
   for (let w = 1; w <= 3; w++) { for (const wk of [1, 2, 3]) { const r = bookOk(st, { fmt: '3v3', bo: 3, weeks: wk * w > 3 ? 3 : wk * w }); if (r && r.ok) { n++; const d = r.scrim.date; assert(!iv.some(([a, b]) => d >= addDays(a, -1) && d <= addDays(b, 1)), 'scrim ' + d + ' is next to an event'); } } }
   assert(n > 0, 'some scrims could be booked');
 }
+// ---- a played scrim fixture (it stays in the list until the next tick) never reaches the standings table ----
+{
+  const { st } = fresh(11), me = engine.teamById(st, st.userTeamId);
+  const r = bookOk(st, { fmt: '3v3', bo: 3, weeks: 1 }); assert(r.ok);
+  r.scrim.date = st.currentDate; engine.uxScrims.tick(st);
+  const fx = st.fixtures.find((f) => f.scrimId === r.scrim.id); assert(fx, 'scrim fixture exists');
+  const row = (t) => JSON.stringify(t.find((x) => x.teamId === me.id)), before = row(engine.computeTable(st));
+  Object.assign(fx, { played: true, homeWins: 2, awayWins: 0, homeGoals: 9, awayGoals: 2 });
+  assert.strictEqual(row(engine.computeTable(st)), before, 'the scrim gives no points, games or goals in the table');
+  assert(st.fixtures.includes(fx), 'the fixture is still in the list afterwards (the full-time screen needs it)');
+}
 console.log('scrims ok');

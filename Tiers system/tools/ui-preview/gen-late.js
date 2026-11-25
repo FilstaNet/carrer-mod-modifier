@@ -1,6 +1,6 @@
 // Preview state for the late-game UI (Club -> Facilities): a Tier A career, late game unlocked, headquarters tier 4, some buildings finished, two under construction.
 // writes %TEMP%/h/state-late.json (open the preview with ?late). `node gen-late.js fresh` = unlocked but nothing built and no mode chosen (for the popup); `node gen-late.js b` = Tier B club (locked tab).
-const R = 'D:/Documents D/Career-Mode-Modifier/';
+const R = require('path').resolve(__dirname, '../../..').split(require('path').sep).join('/') + '/';
 const ev = require(R + 'app_extracted/engine/events.js');
 const engine = require(R + 'Tiers system/src/engine/btier-state').wrapEngine(require(R + 'app_extracted/engine/league.js'), { events: ev });
 engine.uxLate.REQ.major = 0; engine.uxLate.REQ.open = 0; // skip the unlock grind

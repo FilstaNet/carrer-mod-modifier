@@ -126,6 +126,12 @@ const o1 = send({ a: 'open', id: busy.id }); assert(o1.ok && o1.made >= 1 && o1.
 const kids = st.social.posts.filter((p) => p.replyTo === busy.id);
 assert.strictEqual(kids.length, nBefore + o1.made); assert.strictEqual(busy.replies, kids.length, 'the reply count is exactly the comments there are'); assert(kids.length <= 20); assert(kids.every((k) => k.text && !/\[[a-z]+\]|\{|\}/.test(k.text) && k.date >= busy.date && !k.mention), 'comments are clean and not notifications');
 assert.strictEqual(send({ a: 'open', id: busy.id }).made, 0, 'only once');
+// no repeated comment text or account in one thread, and the accounts are not all named after the club
+{ const t = kids.map((x) => x.text), h = kids.map((x) => x.handle); assert.strictEqual(new Set(t).size, t.length, 'no repeated comment'); assert.strictEqual(new Set(h).size, h.length, 'no repeated account'); assert(kids.every((x) => !/undefined|NaN/.test(x.name + x.handle)), 'every fan has a real name'); }
+// an opinion is read as one ("time to sell X"), and the comments under the user's own post follow its words, not a friendly default
+assert.strictEqual(classify(null, 'its time to sell diaz'), 'take'); assert.strictEqual(classify(null, 'bench him'), 'take'); assert.strictEqual(classify(null, 'gg, respect'), 'warm');
+{ const mine = send({ a: 'reply', id: busy.id, text: 'its time to sell diaz' }); assert(mine.ok && mine.cls === 'take', 'reply is a take: ' + mine.cls);
+  const WARM = /respect|proud of you|class act|legend|love to see it/i; send({ a: 'open', id: mine.post.id }); const c = st.social.posts.filter((p) => p.replyTo === mine.post.id && p.amb); assert(c.length === 0 || !c.some((p) => WARM.test(p.text)), 'no applause under a take: ' + c.map((p) => p.text).join(' | ')); }
 assert.strictEqual(send({ a: 'open', id: 999999999 }).made, 0, 'unknown post is harmless');
 const rel = st.social.ux.thr.rel; const keysRel = Object.keys(rel);
 assert(keysRel.length >= 3 && keysRel.every((k) => /^p\d+$/.test(k) && rel[k].n >= 1 && Math.abs(rel[k].s) <= 10), 'rapport tracked per player');

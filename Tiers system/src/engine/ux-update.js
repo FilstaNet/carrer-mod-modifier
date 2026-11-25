@@ -1,6 +1,6 @@
 'use strict';
 // Self-update of the Modifier from the latest GitHub release (its .exe asset).
-// Used by launcher/start.js (before the game starts) and by the Setup-tab bridge (main process).
+// Used by the Setup-tab bridge (main process). Nothing installs without a click.
 // Windows lets a running exe be renamed but not overwritten, so: current -> .old, new -> current.
 const fs = require('fs');
 const path = require('path');
@@ -63,20 +63,26 @@ let busy = false, launched = false;
 const push = () => { for (const wc of wcs) { try { if (!wc.isDestroyed()) wc.executeJavaScript('window.__btierUpd&&window.__btierUpd.set(' + JSON.stringify(S) + ')').catch(() => {}); } catch (e) { /* page gone */ } } };
 const set = (o) => { Object.assign(S, o); push(); };
 
-async function run(mode, log) { // 'check' | 'apply' | 'launch' (launch applies only when auto-update is on)
+// Never installs on its own: 'launch' only checks (when the box is ticked), and the page shows a popup. Installing needs a click ('apply').
+async function run(mode, log) { // 'check' | 'apply' | 'launch'
   if (busy) return;
   busy = true;
   try {
+    if (mode === 'launch' && !isAuto()) { busy = false; return; }
     set({ phase: 'checking', msg: '' });
     const info = await check();
     set({ latest: info.latest, phase: info.newer ? 'available' : 'uptodate' });
-    if (info.newer && (mode === 'apply' || (mode === 'launch' && isAuto()))) {
+    if (info.newer && mode === 'apply') {
       set({ phase: 'downloading' });
       await apply(info, target(path.dirname(process.execPath)));
       set({ phase: 'done' });
       log('updated Modifier to ' + info.latest);
     }
-  } catch (e) { set({ phase: 'error', msg: e.message }); log('update failed: ' + e.message); }
+  } catch (e) {
+    const denied = e.code === 'EPERM' || e.code === 'EACCES';
+    set({ phase: 'error', msg: denied ? 'Windows does not allow writing to the folder of the Modifier (probably Program Files). Download ' + S.latest + ' from github.com/' + REPO + '/releases and replace the .exe, or move the game out of Program Files.' : e.message });
+    log('update failed: ' + e.message);
+  }
   busy = false;
 }
 

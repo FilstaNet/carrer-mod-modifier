@@ -44,22 +44,7 @@ async function connect() {
   throw new Error('inspector port did not open');
 }
 
-// Auto-update before the game starts. Only when the stub started us (TIERSMOD_EXE): it relaunches itself on exit code 75.
-async function autoUpdate() {
-  const upd = require('../src/engine/ux-update.js');
-  if (PROBE || !process.env.TIERSMOD_EXE || !upd.isAuto()) return;
-  try {
-    const info = await Promise.race([upd.check(), sleep(10000).then(() => { throw new Error('timed out'); })]);
-    if (!info.newer) return;
-    say('new Modifier version ' + info.latest + ' found, updating');
-    await upd.apply(info, process.env.TIERSMOD_EXE);
-    say('updated, restarting');
-    process.exit(75);
-  } catch (e) { say('update skipped: ' + e.message); }
-}
-
 (async () => {
-  await autoUpdate();
   say('starting ' + exe + ' (inspector 127.0.0.1:' + PORT + ', log ' + LOG + ')');
   spawn(exe, ['--inspect=' + PORT], { detached: true, stdio: 'ignore', cwd: path.dirname(exe) }).unref();
   const ws = new WebSocket(await connect());

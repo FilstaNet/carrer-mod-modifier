@@ -1,5 +1,5 @@
 // writes %TEMP%/h/clubs.json: the new-career club list as the game's main process would return it (with Tier B regions)
-const R = 'D:/Documents D/Career-Mode-Modifier/';
+const R = require('path').resolve(__dirname, '../../..').split(require('path').sep).join('/') + '/';
 const ev = require(R + 'app_extracted/engine/events.js');
 const engine = require(R + 'Tiers system/src/engine/btier-state').wrapEngine(require(R + 'app_extracted/engine/league.js'), { events: ev });
 const real = require(R + 'app_extracted/data/rlcs-2027.json');

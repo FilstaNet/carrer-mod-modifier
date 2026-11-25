@@ -1,7 +1,7 @@
 // Y, threads: the user can reply to ANY post (free text + optional tone chip) and the world answers back, up to three rounds.
 // Free text is read from the chip, or failing that from a few keywords. The author, a fan or two, and the odd rival answer, some the same day,
 // some one or two days later (state.social.ux.thr.open). Replies to the user are flagged `mention` so the game's own Notifications tab shows them.
-// Consequences stay light and capped: a few followers (visibility of whoever you answered), Y mood, and a teammate's morale.
+// Consequences stay light and capped: a few followers (visibility of whoever you answered), Y opinion, and a teammate's morale.
 // Additive: posts keep the game's shape (replyTo, kind 'player'); the UI reaches this through hub.postTweet with a '\u0001uxy:' text prefix,
 // the one social IPC the game's main process forwards in both careers.
 const { personaOf } = require('./ux-persona');
@@ -13,8 +13,8 @@ const PREFIX = '\u0001uxy:';
 const MAX_ROUNDS = 12; // a conversation dies out by chance long before this; the cap only stops a runaway
 const TONES = ['respect', 'thanks', 'joke', 'hype', 'cocky', 'callout'];
 const CLS_OF_TONE = { respect: 'warm', thanks: 'warm', joke: 'laugh', hype: 'hype', cocky: 'bite', callout: 'fight' };
-const REP = { warm: 0.25, laugh: 0.05, hype: 0.1, bite: -0.15, fight: -0.35, plain: 0, ask: 0 };
-const Q = { warm: 1, laugh: 1.2, hype: 0.8, bite: 0.7, fight: 1.5, plain: 0.6, ask: 0.9 }; // how much attention a reply draws
+const REP = { warm: 0.25, laugh: 0.05, hype: 0.1, bite: -0.15, fight: -0.35, plain: 0, ask: 0, take: 0 };
+const Q = { warm: 1, laugh: 1.2, hype: 0.8, bite: 0.7, fight: 1.5, plain: 0.6, ask: 0.9, take: 1.1 }; // how much attention a reply draws
 
 // what the user said -> how it lands
 function classify(tone, text) {
@@ -24,6 +24,8 @@ function classify(tone, text) {
   if (/\b(trash|overrated|cope|ratio|sit down|clown|washed|embarrassing|bottled|choke)\b/i.test(t)) return 'fight';
   if (/\b(lol|lmao|haha|dead)\b|[😂💀🤣]/i.test(t)) return 'laugh';
   if (/\b(gg|respect|congrats|congratulations|well played|thank|thanks|love|proud)\b/i.test(t)) return 'warm';
+  // an opinion about a person or a roster move: "time to sell X", "bench him", "keep Y", "should sign Z"
+  if (/\b(sell|bench|benched|drop|dropped|trade|replace|release|cut|fire|kick|sack|swap|keep|sign|buy|goat|mvp|underrated|overhyped|better than|worse than|should|shouldn't|needs? to|time to|has to go|must go)\b/i.test(t)) return 'take';
   return 'plain';
 }
 
@@ -36,7 +38,8 @@ const PLAYER = {
   fight: ['[tag] {say it to my face|receipts saved|keep talking|that is all you have?|cute}', '[tag] {we both know how this ends|run it back then}'],
   plain: ['[tag] {noted|fair enough|ok|sure|interesting}', '[tag] {hm|alright}'],
   ask: ['[tag] {good question|we will see|soon|hm, not sure yet|ask me after the series}', '[tag] {working on it|time will tell}'],
-  calm: ['[tag] {no hard feelings|all good, see you out there|respect, let us leave it there|fair, take care}', '[tag] {gg either way|no beef from me}']
+  calm: ['[tag] {no hard feelings|all good, see you out there|respect, let us leave it there|fair, take care}', '[tag] {gg either way|no beef from me}'],
+  take: ['[tag] {interesting take|noted, but I disagree|you are entitled to that|bold opinion|we will see}', '[tag] {the results will say more than a post|ask me again after the series|that is not how I see it}']
 };
 const CALM = { humble: 1, wholesome: 1, analyst: 1 };
 const CLUB = {
@@ -50,6 +53,19 @@ const FAN = {
   fight: ['{drag them|ratio incoming|this is going to be good|popcorn out}', '{no mercy|receipts, please}'], plain: ['{this|facts|noted|true}', '{interesting take|hm}'], ask: ['{big if true|we are watching|good question}', '{waiting on the answer}']
 };
 const FAN_KIND = { fight: ['troll', 'ultra', 'joker'], bite: ['troll', 'joker', 'ultra'], laugh: ['joker', 'joker', 'nerd'], warm: ['ultra', 'nerd', 'ultra'], hype: ['ultra', 'joker'], plain: ['nerd', 'doomer'], ask: ['nerd', 'doomer'] };
+// more lines per mood, so comment sections stop repeating themselves, and the answers to an opinion ("take")
+const FAN_X = {
+  warm: ['{this is the kind of player we need|nothing but respect for you|we are lucky to have you|never change}', '{you do not hear that often, thank you|that is class|good one}', '{this made my day|the community needs more of this}'],
+  laugh: ['{I am crying|not the clip I expected|brb screenshotting}', '{the timing|ok that is actually funny|no way you said that}', '{peak content|the replies are going to be wild}'],
+  hype: ['{bring on the next series|I am ready|get the popcorn and the boost}', '{this squad is different|the hype is real}', '{do not jinx it, but WOW|we ride at dawn}'],
+  bite: ['{careful, they are listening|okay, now you have to back it up|that aged fast, or it will}', '{confidence or ego, we will find out|spicy}', '{bold from you of all people|prove it on the server}'],
+  fight: ['{here we go again|grab a chair, this is a fight|somebody is getting ratioed}', '{the quote tweets are going to be brutal|this is not ending quietly}', '{drama day|nobody is backing down}'],
+  plain: ['{not sure what to make of this|well, that is a post|could go either way}', '{noted I guess|ok then|alright}', '{thanks for the update|fair enough}'],
+  ask: ['{honestly no idea|good question, would like to know too|someone with info please answer}', '{the real question|I was wondering the same}', '{my guess is yes|ask again after the next match}'],
+  take: ['{agree, it has been coming for a while|hard disagree, he has been fine|the numbers do not back that up|he has not been the problem}', '{who would even replace him?|a sale now would be panic|the market has nobody better}', '{people said the same last season and were wrong|bold, but the form is not great}', '{I want to see a replacement named before I agree|if the money is right, sure|that is a front office call, not a fan call}', '{unpopular, but I am with you|nah, give him one more event|we say this every year}', '{the stats say otherwise|his rating tells a different story}']
+};
+for (const k of Object.keys(FAN_X)) FAN[k] = (FAN[k] || []).concat(FAN_X[k]);
+FAN_KIND.take = ['nerd', 'doomer', 'troll', 'ultra', 'joker'];
 // a thread is more fun when somebody takes the other side
 const FOLLOW = ['[tag] {this|facts|exactly|true|real}', '[tag] {lol|haha|nah}', '[tag] {agree|cannot argue|well said}'];
 
@@ -128,7 +144,7 @@ function create(engine, env) {
       const t = say(rand, bank, v); return t ? deco(persona.id, t, rand) : null;
     }
     if (who.kind === 'club') { const t = say(rand, CLUB[cls] || CLUB.plain, {}); return t ? t.charAt(0).toUpperCase() + t.slice(1) : null; }
-    if (who.role === 'fan') { const t = say(rand, FAN[cls], {}); return t; }
+    if (who.role === 'fan') { const t = say(rand, FAN[cls] || FAN.plain, {}); return t; }
     if (who.kind === 'creator') { const t = say(rand, PLAYER[cls === 'fight' || cls === 'bite' ? 'plain' : cls], v); return t; }
     const t = say(rand, MEDIA[cls] || MEDIA.plain, {}); return t ? t.charAt(0).toUpperCase() + t.slice(1) : null;
   }
@@ -140,10 +156,11 @@ function create(engine, env) {
 
   function fanReply(state, rand, day, parent, my, cls, depth) {
     const team = teamOf(state, parent) || engine.teamById(state, state.userTeamId); if (!team) return null;
-    const who = voices.fan(team, pick(rand, FAN_KIND[cls] || FAN_KIND.plain));
+    const who = voices.fan(team, pick(rand, FAN_KIND[cls] || FAN_KIND.plain), Math.floor(rand() * 1e9));
     if (who.handle === parent.handle) return null;
-    const text = say(rand, FAN[cls] || FAN.plain, {}); if (!text) return null;
-    const dup = posts(state).some((p) => p.replyTo === my.id && p.text === text); if (dup) return null;
+    const seen = new Set(posts(state).filter((p) => p.replyTo === my.id).map((p) => p.text));
+    let text = null; for (let i = 0; i < 8 && (!text || seen.has(text)); i++) text = say(rand, FAN[cls] || FAN.plain, {});
+    if (!text || seen.has(text)) return null;
     return emit(state, rand, day, who, text, my, depth);
   }
 
@@ -185,7 +202,7 @@ function create(engine, env) {
       my.rq = true;
       const cls = my.cls || CLS_OF_TONE[my.tone] || 'plain';
       if (rand() > Math.min(0.8, 0.35 * fame)) continue;
-      const who = voices.fan(team, pick(rand, FAN_KIND[cls] || FAN_KIND.plain));
+      const who = voices.fan(team, pick(rand, FAN_KIND[cls] || FAN_KIND.plain), Math.floor(rand() * 1e9));
       const quoted = rand() < 0.5 ? say(rand, FAN[cls] || FAN.plain, {}) : '';
       const q = voices.post(state, rand, day, who, quoted || '', { repostOf: my.id, quote: snap(my), mention: true, seen: false, targetKey: 'p' + me.id });
       if (quoted) { delete q.repostOf; q.quoteOf = my.id; } // a quote has its own words; a bare repost is only a banner
@@ -218,7 +235,7 @@ function create(engine, env) {
     const field = isQuote ? 'reposts' : 'replies';
     parent[field] = (parent[field] || 0) + 1; if (parent.target) parent.target[field] = (parent.target[field] || 0) + 1;
     const lost = spam(state, me);
-    // consequences: a few followers from whoever's audience you borrowed, Y mood, a teammate's feelings
+    // consequences: a few followers from whoever's audience you borrowed, Y opinion, a teammate's feelings
     const T = u(state), todays = T.gain[day] || 0;
     let gain = 0;
     if (parent.authorId !== me.id || parent.kind !== 'player') {
@@ -291,13 +308,14 @@ function create(engine, env) {
     let made = 0;
     const rand = env.mk(env.hash('amb:' + p.id)), team = teamOf(state, p) || engine.teamById(state, state.userTeamId);
     if (want > 0 && team) {
-      const cls = p.tone ? TONE_CLS[p.tone] || CLS_OF_TONE[p.tone] || 'plain' : CTX_CLS[p.ctx] || (p.mine ? 'warm' : 'plain'), used = new Set();
+      // the user's own post is read for what it says (p.cls from the reply, else the words), not assumed friendly
+      const cls = p.tone ? TONE_CLS[p.tone] || CLS_OF_TONE[p.tone] || 'plain' : CTX_CLS[p.ctx] || (p.mine ? p.cls || classify(null, p.text) : 'plain'), used = new Set();
       const others = (state.teams || []).filter((x) => x.id !== team.id && x.tier === team.tier && x.region === team.region);
       for (let i = 0; i < want * 4 && made < want; i++) {
         const tm = others.length && rand() < 0.25 ? pick(rand, others) : team, c = rand() < 0.75 ? cls : 'plain';
-        const who = voices.fan(tm, pick(rand, FAN_KIND[c] || FAN_KIND.plain)), text = say(rand, FAN[c], {});
-        if (!text || used.has(who.handle + text) || who.handle === p.handle) continue;
-        used.add(who.handle + text); voices.post(state, rand, p.date, who, text, { replyTo: p.id, amb: true }); made++;
+        const who = voices.fan(tm, pick(rand, FAN_KIND[c] || FAN_KIND.plain), Math.floor(rand() * 1e9)), text = say(rand, FAN[c] || FAN.plain, {});
+        if (!text || used.has(text) || used.has('@' + who.handle) || who.handle === p.handle) continue; // no repeated comment, no repeated account
+        used.add(text); used.add('@' + who.handle); voices.post(state, rand, p.date, who, text, { replyTo: p.id, amb: true }); made++;
       }
     }
     p.replies = have + made; // the number shown is now exactly the comments there are

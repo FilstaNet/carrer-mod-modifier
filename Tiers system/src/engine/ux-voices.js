@@ -78,10 +78,19 @@ function create(engine, env) {
   const outlet = (n) => ({ role: 'media', kind: 'voice', authorId: -1, name: n, handle: handle(n), followers: 120000 + (hash('outlet:' + n) % 700000), verified: true, club: 'News' });
   const writer = (w, src) => ({ role: 'journalist', kind: 'voice', authorId: -1, name: w, handle: handle(w), followers: 18000 + (hash('wr:' + w) % 160000), verified: true, club: src });
   const leaker = (n) => ({ role: 'leaker', kind: 'voice', authorId: -1, name: n, handle: handle(n), followers: 30000 + (hash('lk:' + n) % 240000), verified: false, club: 'Insider' });
-  function fan(team, k) {
-    const a = ARCH[k], h = hash('fan:' + team.id + ':' + k);
+  // salt (optional): a different account every time it changes. Without it the account is stable per club and kind (feed posts).
+  // About half of the salted fans are not named after the club at all: handle-style names, so a comment section is not a wall of "[club] Nation".
+  const HA = ['boost', 'aerial', 'ceiling', 'flip', 'demo', 'nitro', 'rotation', 'wall', 'kickoff', 'saves', 'pinch', 'wavedash', 'musty', 'redirect', 'fakeout', 'bump'];
+  const HB = ['goblin', 'andy', 'main', 'enjoyer', 'guy', 'wizard', 'lord', 'kid', 'tv', 'rl', 'addict', 'gremlin', 'player', 'watcher', 'dad', 'fan'];
+  const HF = ['Maya', 'Jonas', 'Aki', 'Luca', 'Sam', 'Noor', 'Theo', 'Ines', 'Kaito', 'Ola', 'Dario', 'Mina'];
+  function fan(team, k, salt) {
+    const a = ARCH[k], h = hash('fan:' + team.id + ':' + k + (salt == null ? '' : ':' + salt));
     const t = team.name.replace(/^Team\s+/i, ''), ab = team.abbrev || t.slice(0, 3).toUpperCase();
-    const name = pick(() => (h % 997) / 997, a.name).replace('[t]', t).replace('[a]', ab);
+    let name = pick(() => (h % 997) / 997, a.name).replace('[t]', t).replace('[a]', ab);
+    if (salt != null && h % 100 < 55) {
+      const n = (h >>> 3) % 100, r = (h >>> 9) % 3;
+      name = r === 0 ? HA[(h >>> 4) % HA.length] + HB[(h >>> 8) % HB.length] + (n % 2 ? n : '') : r === 1 ? HF[(h >>> 4) % HF.length] + '_' + (h % 2 ? 'RL' : ab) + (n % 3 ? '' : n) : HA[(h >>> 4) % HA.length] + '.' + HB[(h >>> 8) % HB.length];
+    }
     return { role: 'fan', kind: 'voice', authorId: -1, name, handle: handle(name), followers: 250 + Math.round((team.followers || 5000) * (0.002 + (h % 100) / 25000)), verified: false, club: team.name, fanKind: k };
   }
 

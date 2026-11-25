@@ -7,7 +7,12 @@ Scroll to bottom for features list
 
 Note for v0.11.4:
 Couple bug fixed caused by build version issues
-# Latest changelog v0.11 + v0.11.2
+# Latest changelog v0.11.5
+* **Updates ask first** - no silent install. A popup in the game asks Update now / Later. If the folder is not writable (e.g. Program Files), it tells you to replace the .exe by hand.
+* **Scrims no longer count in the RLCS standings.**
+* **Y**: "Y mood" is now "Y opinion"; replies follow what you wrote (opinions like "sell X" get opinion replies), fewer repeated comments, more varied fan names.
+
+# changelog v0.11 + v0.11.2
 * **Scouts** - you can manage scouts, fire them and hire them.
 * **Showmatches** - host and get invited to showmatches - Club -> Events, next to Off-season showdown
 * **Enhanced Inbox**
@@ -83,7 +88,7 @@ From Minor changes, i added pop-up when there is new modifier release available.
    - Place at least once in top 8 on major
    - qualify for world championship
 * **Scrims**:
-    * Setting up scrims in any format (3v3, 2v2, 1v1) with another team. It raises team morale, synergy and rating by little. You can only simulate 2v2 and 1v1 matches for now - they're not yet playable. You can set up at most 5 scrims every month. Clubs may decline your offer.
+    * Setting up scrims in any format (3v3, 2v2, 1v1) with another team. It raises team morale, synergy and rating by little. All formats (3v3, 2v2, 1v1) can be played or simulated. You can set up at most 5 scrims every month. Clubs may decline your offer.
 
 * **Club tab**:
     * **Invitationals** - You can now host your own tournaments after your club reaches 60,000 followers, with prizepool, sponsors, and invite teams.

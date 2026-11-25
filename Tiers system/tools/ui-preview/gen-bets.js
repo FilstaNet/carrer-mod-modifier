@@ -1,6 +1,6 @@
 // writes %TEMP%/h/statebets.json: a career with settled + running bets (single, combo, parlay, native), the history payload and a sample quote.
 // then: node serve.js, open http://localhost:8765/?bets
-const R = 'D:/Documents D/Career-Mode-Modifier/';
+const R = require('path').resolve(__dirname, '../../..').split(require('path').sep).join('/') + '/';
 const ev = require(R + 'app_extracted/engine/events.js');
 const engine = require(R + 'Tiers system/src/engine/btier-state').wrapEngine(require(R + 'app_extracted/engine/league.js'), { events: ev });
 const real = require(R + 'app_extracted/data/rlcs-2027.json');

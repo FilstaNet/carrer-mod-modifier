@@ -83,7 +83,7 @@
     }).join('');
     return '<div class="ux-trend"><div class="ux-trend-k">' + esc(tl('Trending')) + '</div>' + rows + '</div>';
   }
-  // Y mood: the club's reputation on Y (engine: ux-fx.js). Small effects on followers, media fees and morale, shown so they are not a mystery
+  // Y opinion: the club's reputation on Y (engine: ux-fx.js). Small effects on followers, media fees and morale, shown so they are not a mystery
   const WHY = { title: 'Won a title', upset: 'Upset result', rout: 'One-sided result', 'club-series': 'Knocked out', 'repost:club': 'Backed the club', signing: 'Transfer news', 'free-agent': 'Free agent signed', rumour: 'Transfer talk', callout: 'Public callout' };
   const REPLY_WHY = { warm: 'friendly', laugh: 'joke', hype: 'hype', bite: 'cocky', fight: 'callout', plain: 'plain', ask: 'question' };
   const whyText = (w) => (WHY[w] ? tl(WHY[w]) : /^post:/.test(w) ? tl('Your post') + ': ' + tl(w.slice(5)) : /^(reply|quote):/.test(w) ? tl(w.charAt(0) === 'q' ? 'Your quote' : 'Your reply') + ': ' + tl(REPLY_WHY[w.split(':')[1]] || w.split(':')[1]) : tl(w));
@@ -93,7 +93,7 @@
     const rep = fx.rep || 0, pct = Math.min(50, Math.abs(rep) * 5);
     const label = rep >= 5 ? 'Buzzing' : rep >= 2 ? 'Warm' : rep > -2 ? 'Neutral' : rep > -5 ? 'Cold' : 'Hostile';
     const recent = (fx.log || []).slice(-3).reverse().map((l) => '<div class="ux-mood-r"><span>' + esc(whyText(l.why)) + '</span><b class="' + (l.v >= 0 ? 'up' : 'down') + '">' + (l.v >= 0 ? '+' : '') + l.v + '</b></div>').join('');
-    return '<div class="ux-mood"><div class="ux-mood-k">' + esc(tl('Y mood')) + '<span>' + esc(tl(label)) + '</span></div>' +
+    return '<div class="ux-mood"><div class="ux-mood-k">' + esc(tl('Y opinion')) + '<span>' + esc(tl(label)) + '</span></div>' +
       '<div class="ux-mood-bar"><i style="' + (rep >= 0 ? 'left:50%;width:' + pct + '%' : 'right:50%;width:' + pct + '%') + '" class="' + (rep >= 0 ? 'up' : 'down') + '"></i></div>' + recent +
       '<div class="ux-mood-h">' + esc(tl('Nudges followers, media fees and morale a little. It fades over time.')) + '</div></div>';
   }

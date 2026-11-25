@@ -21,7 +21,7 @@
     return '<h2 class="doc-section-title">Modifier updates</h2><p class="doc-intro">Version ' + esc(s.current) + '. ' + esc(line) + '</p>'
       + '<div class="doc-actions"><button class="btn" data-btier-upd="check"' + (busy ? ' disabled' : '') + '>Check for Modifier updates</button>'
       + (s.phase === 'available' ? ' <button class="btn primary" data-btier-upd="apply">Update Modifier now</button>' : '') + '</div>'
-      + '<p class="doc-intro" style="margin-top:14px"><label><input type="checkbox" data-btier-upd="auto"' + (s.auto ? ' checked' : '') + '> Update the Modifier automatically at launch</label></p>';
+      + '<p class="doc-intro" style="margin-top:14px"><label><input type="checkbox" data-btier-upd="auto"' + (s.auto ? ' checked' : '') + '> Check for Modifier updates at launch (asks before installing)</label></p>';
   }
 
   function ensure() {

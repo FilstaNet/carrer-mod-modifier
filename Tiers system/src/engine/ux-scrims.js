@@ -1,6 +1,6 @@
 'use strict';
 // Scrims: friendly series against a club of the user's own region (so own tier). State lives in state.uxScrims (created on demand, old saves load unchanged).
-//   - 3v3 scrims get a real fixture the day before (play it, or simulate it, like any match); 2v2 / 1v1 are simulated automatically on the day.
+//   - Every scrim (3v3, 2v2 and 1v1) gets a real fixture the day before: play it, or simulate it, like any match.
 //   - Nothing a scrim does touches season stats, MVP counts, standings or recent results: the fixture is removed after the day and a copy lives in
 //     history. Only form, morale, news/inbox and a small rating boost for the players who played are applied (see finalize).
 //   - A scrim is cancelled if a tournament lands on its day, or at the end of the season. AI clubs may decline when asked.
@@ -272,6 +272,17 @@ function install(engine, ev, opts = {}) {
       try { r = apply.apply(this, arguments); } finally { for (const [p, c] of keep) { for (const k of Object.keys(p)) delete p[k]; Object.assign(p, c); } }
       if (fx.played) safe('finalize', () => (sc ? finalize(s, sc, fx) : club.showDone(s, fx)));
       return r;
+    };
+  }
+  // The game's standings table counts every played fixture, and a played scrim / showdown fixture stays in the list until the next daily tick
+  // (the full-time screen needs it). Hide those fixtures from the table so a friendly never gives points, games played or a ranking place.
+  const table = engine.computeTable;
+  if (typeof table === 'function') {
+    engine.computeTable = function computeTableWithoutFriendlies(s) {
+      const all = s && s.fixtures;
+      if (!Array.isArray(all) || !all.some((f) => f.scrimId != null || f.showId != null)) return table.apply(this, arguments);
+      s.fixtures = all.filter((f) => f.scrimId == null && f.showId == null);
+      try { return table.apply(this, arguments); } finally { s.fixtures = all; }
     };
   }
   const next = engine.startNextSeason;
